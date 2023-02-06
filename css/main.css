@@ -1,0 +1,92 @@
+/*===================Fuentes=====================*/
+
+@font-face {
+    font-family: "Titulo-Uno";
+    src: url("/fonts/Exo2-Bold.otf");
+}
+
+@font-face {
+    font-family: "Titulo-Dos";
+    src: url("/fonts/Exo2-Regular.otf");
+}
+
+@font-face {
+    font-family: "Texto-uno";
+    src: url("/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Texto-Dos";
+    src: url("/fonts/Poppins-Bold.ttf");
+}
+
+
+/*===================Root=====================*/
+:root {
+    --primer-color: #030B13;
+    --segundo-color: #E4E4E4;
+
+    --background-color: #ffffff;
+    --segundo-background-color: #EEEFF0;
+
+    --sombra-principal: box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    --sombra-secundaria: box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  
+    --fonts-Titulo-uno: font-family: "Titulo-Uno";
+    --fonts-Titulo-dos: font-family: "Titulo-Dos";
+
+    --fonts-Texto-uno: font-family: "Texto-uno";
+    --fonts-Texto-dos: font-family: "Texto-Dos";
+}
+
+/*----------Estilos------------*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* End reset */
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Agregar estilos propios */
+body {
+	font-family: var(--fonts-Texto-uno);
+	background-color: var(--background-color);
+	color: var(--primer-color);
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin: 0 0 10px 0;
+    font-family: ;
+}
+
+a {
+	color: var(--primer-color);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--primer-color);
+	text-decoration: underline;
+}
