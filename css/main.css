@@ -78,7 +78,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	margin: 0 0 10px 0;
-    font-family: ;
+    /*font-family: ;*/
 }
 
 a {
@@ -89,4 +89,12 @@ a {
 a:hover {
 	color: var(--primer-color);
 	text-decoration: underline;
+}
+
+
+/* CSS PARA COMPONENTES */
+@media(min-width:1024px){
+    header #navBar{
+        position:fixed;
+    }
 }
