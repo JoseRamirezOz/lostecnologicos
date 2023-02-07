@@ -1,0 +1,324 @@
+/*===========Medidas generales para mayores resoluciones==============*/
+.otros-dispositivos-general-div{
+    width: 550px;
+}
+
+.otros-dispositivos-general-div-con-imagen{
+    width: 600px;
+}
+
+.title-general-text-oscuro {
+    font-family: "Titulo-Uno";
+    color: var(--primer-color);
+    font-size: var(--fonts-size-title-dos);
+    text-align: center;
+}
+
+.p-general-text-oscuro {
+    font-family: "Texto-Uno";
+    color: var(--primer-color);
+    font-size: var(--fonts-size-Texto-uno);
+    text-align: center;
+    padding: 7px;
+}
+
+
+/*===================Banner principal===================*/
+.section-contenedor-banner-principal {
+    background-image: url(../../images/index/banner-principal.jpeg);
+    background: -webkit-linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000),
+        url(../../images/index/banner-principal.jpeg);
+    background: linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000),
+        url(../../images/index/banner-principal.jpeg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-bottom: 10vh;
+}
+
+
+
+.title-general-text {
+    font-family: "Titulo-Uno";
+    color: var(--background-color);
+    font-size: var(--fonts-size-title-dos);
+    text-align: center;
+}
+
+.p-general-text {
+    font-family: "Texto-Uno";
+    color: var(--segundo-color);
+    font-size: var(--fonts-size-Texto-dos);
+    text-align: center;
+    padding: 7px;
+}
+
+
+/*===================Reparaciones de equipos de computo===================*/
+.section-contenedor-reparacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 5px;
+
+    gap: 20px 10px;
+}
+
+.imagen-reparacion {
+    width: 290px;
+    clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+}
+
+
+
+
+
+/*===================desarrollo web===================*/
+
+.fondo-general-DW {
+    background-color: var(--primer-color);
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+}
+
+.section-contenedor-desarrollo-web {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px 5px 5px 5px;
+    background-color: var(--tercer-color);
+}
+
+.dw-banner-con-table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px 5px 5px 5px;
+    background-color: var(--tercer-color);
+}
+
+
+.title-general-text-dos {
+    font-family: "Titulo-Uno";
+    color: var(--background-color);
+    font-size: var(--fonts-size-title-dos);
+    text-align: center;
+}
+
+.p-general-text-dos {
+    font-family: "Texto-Uno";
+    color: var(--background-color);
+    font-size: var(--fonts-size-Texto-uno);
+    text-align: center;
+    padding: 7px;
+}
+
+.imagen-Desarrollo-web {
+    width: 300px;
+    margin: 0% auto;
+}
+
+/*---------------segunda parte----------------*/
+.linea-div {
+    height: 2px;
+    width: 98vw;
+    margin: 30px 0px 30px 0px;
+    background-color: var(--background-color);
+}
+
+.title-web-d1 {
+    font-family: "Titulo-Uno";
+    color: var(--background-color);
+    font-size: var(--fonts-size-title-dos);
+    text-align: center;
+}
+
+.title-web-d2 {
+    font-family: "Titulo-Uno";
+    color: var(--background-color);
+    font-size: var(--fonts-size-title-uno);
+    text-align: center;
+}
+
+
+/*----slider----*/
+
+.testimonial-slide {
+    padding: 10px 10px 60px 10px;
+}
+
+.box-cards {
+    height: 25 0px;
+}
+
+.testimonial_box-top {
+    background-color: #ffffff;
+    padding: 7px;
+    border-radius: 15px;
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-general-text-tres-cards {
+    font-family: "Titulo-Uno";
+    color: var(--primer-color);
+    font-size: var(--fonts-size-title-uno);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.p-general-text-tres-cards {
+    font-family: "Texto-Uno";
+    color: var(--primer-color);
+    font-size: var(--fonts-size-Texto-uno);
+    text-align: center;
+    padding: 7px;
+
+    height: 160px;
+}
+
+
+
+/*==============about me y tec================*/
+
+.section-contenedor-about-me-y-tec {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-general-div-section-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 1px;
+    height: 230px;
+    width: 50%;
+}
+
+.fondo-section-6-osc {
+    background-color: var(--primer-color);
+}
+
+.fondo-section-6-cla {
+    background-color: var(--segundo-color);
+}
+
+
+/*==============contacto-y-ubicacion ================*/
+.contacto-y-ubicacion {
+    background-color: var(--primer-color);
+
+    padding: 10px 10px 10px 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentenedor-direccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 500px;
+}
+
+.logotipo-fa {
+    color: var(--background-color);
+    font-size: var( --fonts-size-title-uno);
+}
+
+.maps-iframe {
+    border-radius: var(--border-radius-principal);
+}
+
+
+
+/*==============footer================*/
+footer{
+    background-color: var(--primer-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px 10px;
+    padding: 20px 10px 10px 10px;
+    margin-top: 3px;
+}
+
+.contenedor-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 30px 30px;
+}
+
+.link-texto{
+    font-family: var(--fonts-Texto-uno);
+    color: var(--segundo-color);
+    font-size: var(--fonts-size-Texto-dos );
+    text-align: center;
+    padding: 10px 3px 10px 3px;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.link-texto:hover{
+    font-family: var(--fonts-Texto-uno);
+    color: var(--background-color);
+    font-size: var(--fonts-size-Texto-dos);
+    text-align: center;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.contenedor-logotipos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-logo-tipo{
+    font-family: var(--fonts-Texto-uno);
+    color: var(--background-color);
+    font-size: var(--fonts-size-title-tres);
+    text-align: center;
+    padding: 10px;
+    transition: var(--transition);
+}
+
+.link-logo-tipo:hover{
+    transform: scale(1.1);
+}
+
+.logo-general{
+    width: 140px;
+}
