@@ -1,0 +1,313 @@
+/*===================Banner principal===================*/
+.section-contenedor-banner-principal {
+    background-image: url(../../images/index/banner-principal.jpeg);
+    background: -webkit-linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000),
+        url(../../images/index/banner-principal.jpeg);
+    background: linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000),
+        url(../../images/index/banner-principal.jpeg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-bottom: 10vh;
+}
+
+.title-general-text {
+    font-family: "Titulo-Uno";
+    color: var(--segundo-color);
+    font-size: var(--fonts-size-title-dos);
+    text-align: center;
+}
+
+.p-general-text {
+    font-family: "Texto-Uno";
+    color: var(--segundo-color);
+    font-size: var(--fonts-size-Texto-dos);
+    text-align: center;
+    padding: 7px;
+}
+
+/*===================seccion de camara===================*/
+.section-contenedor-camaras {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 30px 2px 10px 2px;
+}
+
+.title-general-text-oscuro {
+    font-family: "Titulo-Uno";
+    color: var(--primer-color);
+    font-size: var(--fonts-size-title-dos);
+    text-align: center;
+}
+
+.p-general-text-oscuro {
+    font-family: "Texto-Uno";
+    color: var(--primer-color);
+    font-size: var(--fonts-size-Texto-dos);
+    text-align: center;
+    padding: 7px;
+}
+
+
+/*-----Slider-----*/
+
+.carousel-control-next-icon {
+    background-color: #33333389;
+    border-radius: var(--border-radius-principal);
+    padding: 13px;
+    transition: var(--transition);
+}
+
+.carousel-control-prev-icon {
+    background-color: #33333389;
+    border-radius: var(--border-radius-principal);
+    padding: 13px;
+    transition: var(--transition);
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+
+
+
+/*===================Reparaciones de equipos de computo===================*/
+.section-contenedor-reparacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px 5px;
+}
+
+.imagen-reparacion {
+    width: 300px;
+    clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+}
+
+
+/*===================desarrollo web===================*/
+
+.fondo-general-DW{
+    background-color: var(--primer-color);
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+}
+
+.section-contenedor-desarrollo-web {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px 5px 5px 5px;
+    background-color: var(--tercer-color);
+}
+
+
+.title-general-text-dos {
+    font-family: "Titulo-Uno";
+    color: var(--segundo-color);
+    font-size: var(--fonts-size-title-dos);
+    text-align: center;
+}
+
+.p-general-text-dos {
+    font-family: "Texto-Uno";
+    color: var(--segundo-color);
+    font-size: var(--fonts-size-Texto-uno);
+    text-align: center;
+    padding: 7px;
+}
+
+.imagen-Desarrollo-web {
+    width: 300px;
+    margin: 0% auto;
+}
+
+
+/*---------------segunda parte----------------*/
+.linea-div {
+    height: 4px;
+    width: 98vw;
+    margin: 20px 0px 20px 0px;
+    background-color: var(--background-color);
+}
+
+.title-web-d1 {
+    font-family: "Titulo-Uno";
+    color: var(--segundo-color);
+    font-size: var(--fonts-size-title-dos);
+    text-align: center;
+}
+
+.title-web-d2 {
+    font-family: "Titulo-Uno";
+    color: var(--segundo-color);
+    font-size: var(--fonts-size-title-uno);
+    text-align: center;
+}
+
+
+/*----slider----*/
+
+.testimonial-slide {
+    padding: 10px 10px 40px 10px;
+}
+
+.box-cards{
+    height: 250px;
+}
+
+.testimonial_box-top {
+    background-color: #ffffff;
+    padding: 7px;
+    border-radius: 15px;
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-general-text-tres-cards {
+    font-family: "Titulo-Uno";
+    color: var(--primer-color);
+    font-size: var(--fonts-size-title-uno);
+    text-align: center;
+}
+
+.p-general-text-tres-cards  {
+    font-family: "Texto-Uno";
+    color: var(--primer-color);
+    font-size: var(--fonts-size-Texto-uno);
+    text-align: center;
+    padding: 7px;
+
+    height: 160px;
+}
+
+
+
+/*===================Razones para elegirnos===================*/
+.padding-text-general{
+    padding: 30px 0px 0px 0px;
+}
+
+.cajas-de-razones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px 10px;
+    padding: 20px 0px;
+}
+
+.content-razones{
+    width: 150px;
+    height: 150px;
+    background-color: var(--segundo-background-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: var(--sombra-secundaria);
+    border-radius: var(--border-radius-principal);
+    margin: 10px;
+}
+
+.iconos-razones{
+    color: var(--primer-color);
+    font-size: var(--fonts-size-title-tres);
+}
+
+.content-image-logo-marcas{
+    height: 130px;
+    width: 250px;
+    filter: grayscale(100%);
+
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.content-image-logo-marcas:hover{
+    height: 130px;
+    width: 250px;
+    filter: grayscale(0%);
+}
+
+
+/*==============about me y tec================*/
+
+.section-contenedor-about-me-y-tec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-general-div-section-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 1px;
+    height: 300px;
+}
+
+.fondo-section-6-osc{
+    background-color: var(--primer-color);
+}
+
+.fondo-section-6-cla{
+    background-color: var( --segundo-color);
+}

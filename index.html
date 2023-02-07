@@ -2,118 +2,228 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Metadatos SEO -->
-    <title>Los Tecnologicos</title>
-    <meta name="description" content="Descripción de la página">
-    <meta name="keywords" content="palabras clave, separadas, por, comas">
-    <meta name="robots" content="index,follow">
-    <meta name="googlebot" content="index,follow">
+  <!-- Metadatos SEO -->
+  <title>Los Tecnologicos</title>
+  <meta name="description" content="Descripción de la página">
+  <meta name="keywords" content="palabras clave, separadas, por, comas">
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
 
-    <!-- Cache -->
-    <meta http-equiv='cache-control' content='no-cache'>
-    <meta http-equiv='expires' content='0'>
-    <meta http-equiv='pragma' content='no-cache'>
-    <meta http-equiv="Expires" content="0">
-    <meta http-equiv="Last-Modified" content="0">
-    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
-    <meta http-equiv="Pragma" content="no-cache">
+  <!-- Cache -->
+  <meta http-equiv='cache-control' content='no-cache'>
+  <meta http-equiv='expires' content='0'>
+  <meta http-equiv='pragma' content='no-cache'>
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Last-Modified" content="0">
+  <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+  <meta http-equiv="Pragma" content="no-cache">
 
-    <!-- Metadatos para redes sociales -->
-    <meta property="og:title" content="Título de la página">
-    <meta property="og:description" content="Descripción de la página">
-    <meta property="og:image" content="URL de la imagen destacada">
-    <meta property="og:url" content="URL de la página">
-    <meta property="og:type" content="website">
+  <!-- Metadatos para redes sociales -->
+  <meta property="og:title" content="Título de la página">
+  <meta property="og:description" content="Descripción de la página">
+  <meta property="og:image" content="URL de la imagen destacada">
+  <meta property="og:url" content="URL de la página">
+  <meta property="og:type" content="website">
 
-    <!-- Metadatos para redes sociales TWITER -->
-    <meta property="twitter:site_name" content="" />
-    <meta property="twitter:title" content="" />
-    <meta property="twitter:description" content="" />
-    <meta property="twitter:image" content="" />
+  <!-- Metadatos para redes sociales TWITER -->
+  <meta property="twitter:site_name" content="" />
+  <meta property="twitter:title" content="" />
+  <meta property="twitter:description" content="" />
+  <meta property="twitter:image" content="" />
 
-    <!-- Otros metadatos -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Otros metadatos -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 
-    <!-- ESTILOS EN CSS -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" media="(min-width:320px)" href="css/index/movil.css"/>
-    <link rel="stylesheet" media="(min-width:768px)" href="css/index/tablet.css"/>
-    <link rel="stylesheet" media="(min-width:1024px)" href="css/index/desktop.css"/>
+  <!-- ESTILOS EN CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" media="(min-width:320px)" href="css/index/movil.css" />
+  <link rel="stylesheet" media="(min-width:768px)" href="css/index/tablet.css" />
+  <link rel="stylesheet" media="(min-width:1024px)" href="css/index/desktop.css" />
 
-    <!-- CONEXION CON BOOTSTRAP v5.3 -->
-    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+  <!-- CONEXION CON BOOTSTRAP v5.3 -->
+  <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css'>
 </head>
 
 <body>
-    <header>
-        <nav id="navBar" class="navbar navbar-dark bg-dark fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+  <!-----------------Header componente!!!----------------------->
+  <header>
+    <nav id="navBar" class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar">
+          <p class="navbar-toggler-icon"></p>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-----------------Banner principal----------------------->
+  <section class="section-contenedor-banner-principal">
+    <div style="margin: 0% auto;">
+      <h1 class="title-general-text">Los Tecnologicos</h1>
+      <p class="p-general-text">"Transformando la tecnología en soluciones eficientes. Bienvenidos a Los Tecnologicos,
+        su distribuidor
+        confiable de equipo de cómputo y cámaras"</p>
+    </div>
+  </section>
+
+
+  <!-----------------Seccion de camara----------------------->
+  <section class="section-contenedor-camaras">
+    <div style="margin: 0% auto;">
+      <h4 class="title-general-text-oscuro">Camaras de Vigilancía</h4>
+      <p class="p-general-text-oscuro">Ofrecemos cámaras de alta calidad y servicio de instalación profesional para un
+        sistema de seguridad óptimo, con soluciones personalizadas para hogar o negocio.</p>
+
+      <div class="container text-center my-3">
+        <div class="row mx-auto my-auto justify-content-center">
+          <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="col-md-3">
+                  <div class="card-img">
+                    <img src="./images/camaras/slider/camara-1.png" class="img-fluid">
+                  </div>
                 </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                          <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <form class="d-flex mt-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-success" type="submit">Search</button>
-                  </form>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card-img">
+                    <img src="./images/camaras/slider/camara-2.png" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card-img">
+                    <img src="./images/camaras/slider/camara-3.png" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card-img">
+                    <img src="./images/camaras/slider/camara-4.png" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card-img">
+                    <img src="./images/camaras/slider/camara-5.png" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+
+                  <div class="card-img">
+                    <img src="./images/camaras/slider/camara-6.png" class="img-fluid">
+                  </div>
+
                 </div>
               </div>
             </div>
-          </nav>
+            <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+              data-bs-slide="prev">
+              <p class="carousel-control-prev-icon" aria-hidden="true"></p>
+            </a>
+            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+              data-bs-slide="next">
+              <p class="carousel-control-next-icon" aria-hidden="true"></p>
+            </a>
+          </div>
+        </div>
+      </div>
 
-          
-    </header>
+    </div>
+  </section>
 
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  <!-----------------Seccion de camara----------------------->
+  <section class="section-contenedor-reparacion">
+    <div style="margin: 0% auto;">
+      <h4 class="title-general-text-oscuro">Reparaciones de equipos de computo </h4>
+      <p class="p-general-text-oscuro">"Soluciones técnicas confiables para hogar y empresas. Mantenimiento preventivo y
+        correctivo con rapidez y eficacia. Servicio profesional y personalizado para cada cliente. Ofrecemos soluciones
+        a medida para su comodidad y satisfacción."</p>
+    </div>
+    <img class="imagen-reparacion" src="./images/index/reparacion.png" alt="">
+  </section>
 
-    <script src="js/main.js"></script>
-    <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+  <!-----------------desarrollo web---------------------->
+  <section class="section-contenedor-desarrollo-web">
+    <div class="section-contenedor-desarrollo-web">
+      <div>
+        <h4 class="title-general-text-dos">Desarrollo de sitios web a medida</h4>
+        <p class="p-general-text-dos">Transforma tu visión en realidad con nuestro Desarrollo de Sitios Web a Medida.
+          Ofrecemos una experiencia en línea personalizada y única para su marca utilizando tecnologías y tendencias
+          actuales en diseño web. Trabajamos juntos para entender tus necesidades y objetivos y garantizar un sitio web
+          atractivo, funcional y fácil de usar.</p>
+      </div>
+
+      <img class="imagen-Desarrollo-web" src="./images/index/pc.png" alt="">
+    </div>
+
+    <div class="linea-div"></div>
+
+    <div style="margin: 0% auto;">
+      <h3 class="title-web-d1">DESARROLO WEB A MEDIDA</h1>
+        <h4 class="title-web-d2">RAZONES POR LAS CUALES NOS DEBES ELEJIR </h4>
+    </div>
+
+  </section>
+
+  
+
+  <script src="js/carrusel-Individual.js"></script>
+  <script src="js/main.js"></script>
+  <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+  
 </body>
 
 </html>
