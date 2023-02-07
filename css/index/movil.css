@@ -132,7 +132,7 @@
 
 /*===================desarrollo web===================*/
 
-.fondo-general-DW{
+.fondo-general-DW {
     background-color: var(--primer-color);
     clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
 }
@@ -150,14 +150,14 @@
 
 .title-general-text-dos {
     font-family: "Titulo-Uno";
-    color: var(--segundo-color);
+    color: var(--background-color);
     font-size: var(--fonts-size-title-dos);
     text-align: center;
 }
 
 .p-general-text-dos {
     font-family: "Texto-Uno";
-    color: var(--segundo-color);
+    color: var(--background-color);
     font-size: var(--fonts-size-Texto-uno);
     text-align: center;
     padding: 7px;
@@ -179,14 +179,14 @@
 
 .title-web-d1 {
     font-family: "Titulo-Uno";
-    color: var(--segundo-color);
+    color: var(--background-color);
     font-size: var(--fonts-size-title-dos);
     text-align: center;
 }
 
 .title-web-d2 {
     font-family: "Titulo-Uno";
-    color: var(--segundo-color);
+    color: var(--background-color);
     font-size: var(--fonts-size-title-uno);
     text-align: center;
 }
@@ -198,7 +198,7 @@
     padding: 10px 10px 40px 10px;
 }
 
-.box-cards{
+.box-cards {
     height: 250px;
 }
 
@@ -221,7 +221,7 @@
     text-align: center;
 }
 
-.p-general-text-tres-cards  {
+.p-general-text-tres-cards {
     font-family: "Texto-Uno";
     color: var(--primer-color);
     font-size: var(--fonts-size-Texto-uno);
@@ -234,11 +234,11 @@
 
 
 /*===================Razones para elegirnos===================*/
-.padding-text-general{
+.padding-text-general {
     padding: 30px 0px 0px 0px;
 }
 
-.cajas-de-razones{
+.cajas-de-razones {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -249,7 +249,7 @@
     padding: 20px 0px;
 }
 
-.content-razones{
+.content-razones {
     width: 150px;
     height: 150px;
     background-color: var(--segundo-background-color);
@@ -264,12 +264,12 @@
     margin: 10px;
 }
 
-.iconos-razones{
+.iconos-razones {
     color: var(--primer-color);
     font-size: var(--fonts-size-title-tres);
 }
 
-.content-image-logo-marcas{
+.content-image-logo-marcas {
     height: 130px;
     width: 250px;
     filter: grayscale(100%);
@@ -278,7 +278,7 @@
     cursor: pointer;
 }
 
-.content-image-logo-marcas:hover{
+.content-image-logo-marcas:hover {
     height: 130px;
     width: 250px;
     filter: grayscale(0%);
@@ -287,7 +287,7 @@
 
 /*==============about me y tec================*/
 
-.section-contenedor-about-me-y-tec{
+.section-contenedor-about-me-y-tec {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -304,10 +304,92 @@
     height: 300px;
 }
 
-.fondo-section-6-osc{
+.fondo-section-6-osc {
     background-color: var(--primer-color);
 }
 
-.fondo-section-6-cla{
-    background-color: var( --segundo-color);
+.fondo-section-6-cla {
+    background-color: var(--segundo-color);
+}
+
+
+/*==============contacto-y-ubicacion ================*/
+.contacto-y-ubicacion {
+    background-color: var(--primer-color);
+
+    padding: 30px 10px 30px 10px;
+}
+
+.contentenedor-direccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotipo-fa {
+    color: var(--background-color);
+    font-size: var( --fonts-size-title-dos);
+}
+
+.maps-iframe {
+    border-radius: var(--border-radius-principal);
+}
+
+/*==============footer================*/
+footer{
+    background-color: var(--primer-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px 10px;
+    padding: 10px;
+    margin-top: 3px;
+}
+
+.contenedor-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-texto{
+    font-family: var(--fonts-Texto-uno);
+    color: var(--segundo-color);
+    font-size: var(--fonts-size-Texto-tres);
+    text-align: center;
+    padding: 10px 3px 10px 3px;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.link-texto:hover{
+    font-family: var(--fonts-Texto-uno);
+    color: var(--background-color);
+    font-size: var(--fonts-size-Texto-tres);
+    text-align: center;
+    padding: 10px 3px 10px 3px;
+    text-decoration: none;
+}
+
+.contenedor-logotipos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-logo-tipo{
+    font-family: var(--fonts-Texto-uno);
+    color: var(--background-color);
+    font-size: var(--fonts-size-title-cuatro);
+    text-align: center;
+    padding: 10px;
+}
+
+.logo-general{
+    width: 140px;
 }

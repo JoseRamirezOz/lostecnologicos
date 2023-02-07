@@ -42,12 +42,14 @@ body::-webkit-scrollbar-thumb {
 
     --sombra-principal: rgba(0, 0, 0, 0.5) 0px 2px 8px 0px;
     --sombra-secundaria: rgba(31, 32, 33, 0.112) 0px 2px 14px 0px, rgba(14, 30, 37, 0.117) 0px 2px 16px 0px;
-  
+    --sombra-ter: rgba(223, 223, 223, 0.5) 0px 2px 8px 0px;
+
     --fonts-Titulo-uno:  "Titulo-Uno";
     --fonts-Titulo-dos:  "Titulo-Dos";
     --fonts-size-title-uno: 1.7rem;
     --fonts-size-title-dos: 2.5rem;
     --fonts-size-title-tres: 3rem;
+    --fonts-size-title-cuatro: 4rem;
 
     --fonts-Texto-uno:  "Texto-uno";
     --fonts-Texto-dos:  "Texto-Dos";
@@ -55,8 +57,12 @@ body::-webkit-scrollbar-thumb {
     --fonts-size-Texto-dos: 1.5rem;
     --fonts-size-Texto-tres: 2.2rem;
 
+    --letra-color: #2c2c2c;
+
     --border-radius-principal: 10px;
-    --transition: 500ms;
+    --transition: 500ms; 
+
+
 }
 
 /*----------Estilos------------*/
@@ -116,5 +122,7 @@ a:hover {
 @media(min-width:1024px){
     header #navBar{
         position:fixed;
+
+        
     }
 }
