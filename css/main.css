@@ -133,9 +133,9 @@ a:hover {
 /*==============HEADER================*/
 
 header {
-    position: fixed;
     background-color: var(--primer-color);
     z-index: 9999999;
+    
 }
 
 #navBar {
@@ -143,8 +143,17 @@ header {
     padding: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     z-index: 9999999;
+    position: fixed;
+
+    width: 100%;
 }
 
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
 /*-----boton-----*/
 #navbar-toggler {
@@ -174,6 +183,14 @@ header {
 #offcanvasDarkNavbar {
     background-color: var(--primer-color);
     z-index: 9999999;
+}
+
+
+.linea-div {
+    height: 2px;
+    width: 98vw;
+    margin: 30px 0px 30px 0px;
+    background-color: var(--background-color);
 }
 
 

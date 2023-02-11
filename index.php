@@ -54,7 +54,7 @@
 </head>
 
 
-<body>
+<body id="inicio">
 
     <!-----------------Header componente!!!----------------------->
     <?php require('./componentesPHP/header.php')?>
@@ -135,7 +135,7 @@
                     </a>
                     <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
                         data-bs-slide="next">
-                        <p class="carousel-control-next-icon" aria-hidden="true"></p>
+                        <p   id="reparacion"  class="carousel-control-next-icon" aria-hidden="true"></p>
                     </a>
                 </div>
             </div>
@@ -145,7 +145,7 @@
 
 
     <!-----------------Seccion de reparacion----------------------->
-    <section class="section-contenedor-reparacion"  id="reparacion" >
+    <section class="section-contenedor-reparacion">
         <div class="otros-dispositivos-general-div-con-imagen">
             <h4 class="title-general-text-oscuro">Reparaciones de equipos de computo </h4>
             <p class="p-general-text-oscuro">"Soluciones técnicas confiables para hogar y empresas. Mantenimiento
@@ -154,12 +154,12 @@
                 soluciones
                 a medida para su comodidad y satisfacción."</p>
         </div>
-        <img class="imagen-reparacion" src="./images/index/reparacion.png" alt="">
+        <img class="imagen-reparacion" src="./images/index/reparacion.png" id="websites" alt="">
     </section>
 
 
     <!-----------------desarrollo web---------------------->
-    <div class="fondo-general-DW" id="websites">
+    <div class="fondo-general-DW" >
         <section class="section-contenedor-desarrollo-web">
             <div class="dw-banner-con-table">
                 <div class="otros-dispositivos-general-div-con-imagen">
@@ -274,7 +274,7 @@
     </section>
 
     <main class="slider-fondo" id="tec-about">
-        <div class="testimonial-slider">
+        <div class="testimonial-slider-imgs">
             <div class="testimonial-slide">
                 <div class="testimonial_box-top">
                     <img src="/images/index/marcas-slider/acer.png" alt="" class="content-image-logo-marcas">
@@ -378,7 +378,7 @@
     <!-- Formulario -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/formulario.js"></script>
-
+    
     <!-- Slider camaras -->
     <script src="js/carrusel-Individual.js"></script>
 

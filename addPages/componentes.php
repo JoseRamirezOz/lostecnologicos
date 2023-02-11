@@ -54,6 +54,8 @@
 
 
 <body>
+    <!-----------------HEADER----------------------->
+    <?php require('../componentesPHP/headerDos.php')?>
 
     <!-----------------Banner principal----------------------->
     <section class="section-contenedor-banner-principal">
@@ -346,6 +348,9 @@
             </p>
         </div>
     </section>
+
+    <!-----------------fOOTER----------------------->
+    <?php require('../componentesPHP/footerDos.php')?>
 
 
     <!-- Formulario -->

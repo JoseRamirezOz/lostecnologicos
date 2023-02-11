@@ -1,5 +1,5 @@
 <header>
-        <nav id="navBar" class="navbar navbar-dark fixed-top">
+        <nav id="navBar" class="navbar navbar-dark fixed-top sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img width="100px" src="./images/LOGOS/logo.png" alt=""
                         class="logo-general"></a>
@@ -20,7 +20,7 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="#">Inicio</a>
+                                <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="#inicio">Inicio</a>
                             </li>                        
                             <li class="nav-item" data-bs-dismiss="offcanvas">
                                 <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="#reparacion" >Reparación de equipos</a>
@@ -34,11 +34,12 @@
                             <li class="nav-item" data-bs-dismiss="offcanvas">
                                 <a id="texto-nav" class="nav-link scroll-link" href="#contacto">Contacto</a>
                             </li>      
+                            <div class="linea-div" style="margin: 5px 0px 5px 0px; width: 100%;"></div>
                             <li class="nav-item" >
-                                <a id="texto-nav" class="nav-link" href="#">Camaras</a>
+                                <a id="texto-nav" class="nav-link" href="./addPages/camaras.html">• Camaras</a>
                             </li>   
                             <li class="nav-item">
-                                <a id="texto-nav" class="nav-link" href="#">Componentes pc</a>
+                                <a id="texto-nav" class="nav-link" href="./addPages/Componentes.php">• Componentes pc</a>
                             </li>   
                         </ul>               
                     </div>
