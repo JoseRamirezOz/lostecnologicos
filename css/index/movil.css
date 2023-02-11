@@ -147,7 +147,7 @@
     background-color: var(--tercer-color);
 }
 
-.dw-banner-con-table{
+.dw-banner-con-table {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -337,7 +337,7 @@
 
 .logotipo-fa {
     color: var(--background-color);
-    font-size: var( --fonts-size-title-dos);
+    font-size: var(--fonts-size-title-dos);
 
     display: flex;
     flex-direction: row;
@@ -349,60 +349,62 @@
     border-radius: var(--border-radius-principal);
 }
 
-/*==============footer================*/
-footer{
-    background-color: var(--primer-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-    gap: 10px 10px;
-    padding: 10px;
-    margin-top: 3px;
-}
 
-.contenedor-links{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.link-texto{
-    font-family: var(--fonts-Texto-uno);
-    color: var(--segundo-color);
-    font-size: var(--fonts-size-Texto-tres);
-    text-align: center;
-    padding: 10px 3px 10px 3px;
-    text-decoration: none;
-    transition: var(--transition);
-}
 
-.link-texto:hover{
-    font-family: var(--fonts-Texto-uno);
-    color: var(--background-color);
-    font-size: var(--fonts-size-Texto-tres);
-    text-align: center;
-    padding: 10px 3px 10px 3px;
-    text-decoration: none;
-}
+/*====================================================================
+   QUERY PARA LOS MOVILES MAS PEQUEÑOS A 325, PARA NO HACER MAS CSS
+====================================================================*/
 
-.contenedor-logotipos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+@media(max-width:325px) {
 
-.link-logo-tipo{
-    font-family: var(--fonts-Texto-uno);
-    color: var(--background-color);
-    font-size: var(--fonts-size-title-cuatro);
-    text-align: center;
-    padding: 10px;
-}
+    /*--------------Razones para elegirnos------------*/
+    .padding-text-general {
+        padding: 30px 0px 0px 0px;
+    }
+    
+    .cajas-de-razones {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+        gap: 4px 4px;
+        padding: 20px 0px;
+    }
+    
+    .content-razones {
+        width: 135px;
+        height: 135px;
+        background-color: var(--segundo-background-color);
 
-.logo-general{
-    width: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        box-shadow: var(--sombra-secundaria);
+        border-radius: var(--border-radius-principal);
+        margin: 5px;
+    }
+
+
+    .p-general-text-oscuro {
+        font-family: "Texto-Uno";
+        color: var(--primer-color);
+        font-size: var(--fonts-size-Texto-uno);
+        text-align: center;
+        padding: 7px;
+    }
+
+    .p-general-text-dos {
+        font-family: "Texto-Uno";
+        color: var(--background-color);
+        font-size: var(--fonts-size-Texto-uno);
+        text-align: center;
+        padding: 7px;
+    }
+
 }

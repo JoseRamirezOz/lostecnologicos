@@ -1,5 +1,5 @@
 /*===================Banner principal=====================*/
-.section-contenedor-banner-principal{
+.section-contenedor-banner-principal {
     background-color: var(--primer-color);
     height: 100vh;
 
@@ -7,9 +7,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
-.div-contenedor-textos{
+.div-contenedor-textos {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,23 +20,23 @@
     width: 100%;
 }
 
-.contenedor-imagen-banner{
+.contenedor-imagen-banner {
     width: 100%;
     padding: 10px;
 }
 
-.-imagen-banner{
+.-imagen-banner {
     width: 100%;
 }
 
-.title-general-text-banner-principal{
+.title-general-text-banner-principal {
     font-family: "Titulo-Uno";
     color: var(--background-color);
     font-size: var(--fonts-size-title-dos);
     text-align: center;
 }
 
-.p-general-text-banner-principal{
+.p-general-text-banner-principal {
     font-family: "Texto-Uno";
     color: var(--background-color);
     font-size: var(--fonts-size-Texto-dos);
@@ -44,11 +45,11 @@
 
 /*===================segundo banner=====================*/
 
-.section-contenedor-banner-secundario{
+.section-contenedor-banner-secundario {
     background-image: url(../../images/componentes/BlackShark.jpg);
-    background: -webkit-linear-gradient(to bottom, #030b13, #030b13e3, #030b1335,#030b1327, #030b1355, #030b13),
+    background: -webkit-linear-gradient(to bottom, #030b13, #030b13e3, #030b1335, #030b1327, #030b1355, #030b13),
         url(../../images/componentes/BlackShark.jpg);
-    background: linear-gradient(to bottom, #030B13, #030b13e3, #030b1335,#030b1327, #030b1355, #030b13),
+    background: linear-gradient(to bottom, #030B13, #030b13e3, #030b1335, #030b1327, #030b1355, #030b13),
         url(../../images/componentes/BlackShark.jpg);
 
     background-position: center;
@@ -62,17 +63,17 @@
     justify-content: flex-end;
     align-items: center;
 
-    padding: 10px  10px  12vh  10px;
+    padding: 10px 10px 12vh 10px;
 }
 
-.title-general-text-banner-secundario{
+.title-general-text-banner-secundario {
     font-family: "Titulo-Uno";
     color: var(--background-color);
     font-size: var(--fonts-size-title-dos);
     text-align: center;
 }
 
-.p-general-text-banner-secundario{
+.p-general-text-banner-secundario {
     font-family: "Texto-Uno";
     color: var(--background-color);
     font-size: var(--fonts-size-Texto-dos);
@@ -82,7 +83,7 @@
 
 /*===================banner slider=====================*/
 
-.banner-titulo-general{
+.banner-titulo-general {
     font-family: var(--fonts-Titulo-uno);
     color: var(--primer-color);
     font-size: var(--fonts-size-title-dos);
@@ -92,27 +93,27 @@
     padding: 40px 0px 10px 0px;
 }
 
-.banner-slider{
+.banner-slider {
     width: 100%;
     height: 150px;
     object-fit: cover;
     border-radius: var(--border-radius-principal);
 }
 
-.testimonial_box-top{
+.testimonial_box-top {
     margin: 10px;
 }
 
 
 /*===================div expand=====================*/
-.contenedor-de-productos-general{
+.contenedor-de-productos-general {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
 }
 
-.contenedor-de-productos-div{
+.contenedor-de-productos-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,7 +138,7 @@
 .expand-button {
     padding: 10px;
     text-align: center;
-    
+
     background-color: var(--background-color);
     border: 3px solid var(--primer-color);
     border-radius: var(--border-radius-principal);
@@ -146,7 +147,7 @@
     transform: rotate(0deg);
 }
 
-.fa-expand-class{
+.fa-expand-class {
     font-size: 30px;
     color: var(--primer-color);
 }
@@ -168,7 +169,7 @@
     width: 310px;
 }
 
-.producto-div{
+.producto-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,11 +184,11 @@
     margin: 10px 10px 22px 10px;
 }
 
-.img-producto{
+.img-producto {
     width: 100px;
 }
 
-.nombre-producto{
+.nombre-producto {
     font-family: "Texto-Uno";
     color: var(--primer-color);
     font-size: var(--fonts-size-Texto-dos);
@@ -252,7 +253,7 @@
 
 
 /*===============banner pc=====================*/
-.contenedor-de-banner-final{
+.contenedor-de-banner-final {
     background-image: url(../../images/componentes/banner.jpeg);
     background: -webkit-linear-gradient(to bottom, #030b138a, #030b138a, #030b13d5, #030b13),
         url(../../images/componentes/banner.jpeg);
@@ -275,14 +276,14 @@
 }
 
 
-.title-general-text-banner-final{
+.title-general-text-banner-final {
     font-family: "Titulo-Uno";
     color: var(--background-color);
     font-size: var(--fonts-size-title-dos);
     text-align: center;
 }
 
-.p-general-text-banner-final{
+.p-general-text-banner-final {
     font-family: "Texto-Uno";
     color: var(--background-color);
     font-size: var(--fonts-size-Texto-dos);
@@ -317,7 +318,7 @@
 }
 
 
-.title-general-text{
+.title-general-text {
     font-family: "Titulo-Uno";
     color: var(--segundo-color);
     font-size: var(--fonts-size-title-dos);
@@ -332,17 +333,72 @@
     padding: 7px;
 }
 
-.title-general-text-oscuro{
+.title-general-text-oscuro {
     font-family: "Titulo-Uno";
     color: var(--primer-color);
     font-size: var(--fonts-size-title-tres);
     text-align: center;
 }
 
-.p-general-text-oscuro{
+.p-general-text-oscuro {
     font-family: "Texto-Uno";
     color: var(--primer-color);
     font-size: var(--fonts-size-Texto-dos);
     text-align: center;
     padding: 7px;
+}
+
+
+
+
+/*====================================================================
+   QUERY PARA LOS MOVILES MAS PEQUEÑOS A 325, PARA NO HACER MAS CSS
+====================================================================*/
+
+
+
+@media(max-width:325px) {
+
+    /*--------------Banner principal------------*/
+
+    .title-general-text-banner-principal {
+        font-family: "Titulo-Uno";
+        color: var(--background-color);
+        font-size: var(--fonts-size-title-uno);
+        text-align: center;
+    }
+
+    .p-general-text-banner-principal {
+        font-family: "Texto-Uno";
+        color: var(--background-color);
+        font-size: var(--fonts-size-Texto-uno);
+        text-align: center;
+    }
+
+    .contenedor-imagen-banner {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .-imagen-banner {
+        width: 100%;
+    }
+
+
+    /*--------------segundo banner------------*/
+
+    .title-general-text-banner-secundario {
+        font-family: "Titulo-Uno";
+        color: var(--background-color);
+        font-size: var(--fonts-size-title-uno);
+        text-align: center;
+    }
+    
+    .p-general-text-banner-secundario {
+        font-family: "Texto-Uno";
+        color: var(--background-color);
+        font-size: var(--fonts-size-Texto-dos);
+        text-align: center;
+        padding: 10px;
+    }
 }
