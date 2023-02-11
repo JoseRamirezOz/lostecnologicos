@@ -254,9 +254,9 @@
 /*===============banner pc=====================*/
 .contenedor-de-banner-final{
     background-image: url(../../images/componentes/banner.jpeg);
-    background: -webkit-linear-gradient(to bottom, #030b138a, #030b138a),
+    background: -webkit-linear-gradient(to bottom, #030b138a, #030b138a, #030b13d5, #030b13),
         url(../../images/componentes/banner.jpeg);
-    background: linear-gradient(to bottom, #030B138a, #030b138a),
+    background: linear-gradient(to bottom, #030B138a, #030b138a, #030b13D5, #030b13),
         url(../../images/componentes/banner.jpeg);
 
     background-position: center;

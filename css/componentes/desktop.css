@@ -1,0 +1,310 @@
+/*===================Banner principal=====================*/
+.section-contenedor-banner-principal{
+    background-color: var(--primer-color);
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-contenedor-textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 10px;
+
+    padding: 20px 40px 40px 40px;
+    width: 50%;
+}
+
+.contenedor-imagen-banner{
+    width: 40%;
+    padding: 10px;
+    margin: 0% auto;
+}
+
+.title-general-text-banner-principal{
+    font-family: "Titulo-Uno";
+    color: var(--background-color);
+    font-size: var(--fonts-size-title-dos);
+    text-align: center;
+}
+
+.p-general-text-banner-principal{
+    font-family: "Texto-Uno";
+    color: var(--background-color);
+    font-size: var(--fonts-size-Texto-dos);
+    text-align: center;
+}
+
+
+/*===================segundo banner=====================*/
+
+.section-contenedor-banner-secundario{
+    background-image: url(../../images/componentes/BlackShark.jpg);
+    background: -webkit-linear-gradient(to bottom, #030b13, #030b13d7, #030b137e, #030b1335, #030b1335 #030b1335,#030b1357, #030b1370, #030b13),
+        url(../../images/componentes/BlackShark.jpg);
+    background: linear-gradient(to bottom, #030B13, #030b13d7, #030b137e, #030b1335, #030b1335,#030b1357, #030b1376, #030b13),
+        url(../../images/componentes/BlackShark.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 10px  50px  12vh 50px;
+}
+
+.title-general-text-banner-secundario{
+    font-family: "Titulo-Uno";
+    color: var(--background-color);
+    font-size: var(--fonts-size-Texto-tres);
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.p-general-text-banner-secundario{
+    font-family: "Texto-Uno";
+    color: var(--background-color);
+    font-size: var(--fonts-size-Texto-dos);
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+/*===================banner slider=====================*/
+
+.banner-titulo-general{
+    font-family: var(--fonts-Titulo-uno);
+    color: var(--primer-color);
+    font-size: var(--fonts-size-title-tres);
+    text-align: center;
+
+    margin: 0;
+    padding: 40px 0px 10px 0px;
+}
+
+.banner-slider{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: var(--border-radius-principal);
+}
+
+.testimonial_box-top{
+    margin: 10px;
+}
+
+
+/*===================div expand=====================*/
+.contenedor-de-productos-general{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-de-productos-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px 0px 20px 0px;
+}
+
+
+/*-------div expand------*/
+.expand-container {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+}
+
+.expand-content {
+    width: auto;
+}
+
+.expand-button {
+    padding: 0px;
+    text-align: center;
+    
+    background-color: var(--background-color);
+    border: 0px solid var(--primer-color);
+    border-radius: var(--border-radius-principal);
+    text-align: center;
+    margin: 0px;
+    transform: rotate(0deg);
+
+    visibility: hidden;
+    height: 0px;
+}
+
+.fa-expand-class{
+    font-size: 40px;
+    color: var(--primer-color);
+}
+
+.expand-container.expanded {
+    height: 940px !important;
+}
+
+
+/*---card div---*/
+
+.expand-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 710px;
+}
+
+.producto-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 170px;
+    height: 200px;
+
+    box-shadow: var(--sombra-secundaria);
+    border-radius: var(--border-radius-principal);
+    padding: 2px;
+    margin: 22px;
+}
+
+.img-producto{
+    width: 150px;
+}
+
+.banner-pc-productos{
+    width: 35%;
+}
+
+.nombre-producto{
+    font-family: "Texto-Uno";
+    color: var(--primer-color);
+    font-size: var(--fonts-size-Texto-dos);
+    text-align: center;
+
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+
+/*===============banner pc=====================*/
+.contenedor-de-banner-final{
+    background-image: url(../../images/componentes/banner.jpeg);
+    background: -webkit-linear-gradient(to bottom, #030b138a, #030b138a, #030b13d5, #030b13),
+        url(../../images/componentes/banner.jpeg);
+    background: linear-gradient(to bottom, #030B138a, #030b138a, #030b13D5, #030b13),
+        url(../../images/componentes/banner.jpeg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+    margin-top: 30px;
+}
+
+
+.title-general-text-banner-final{
+    font-family: "Titulo-Uno";
+    color: var(--background-color);
+    font-size: var(--fonts-size-title-tres);
+    text-align: center;
+}
+
+.p-general-text-banner-final{
+    font-family: "Texto-Uno";
+    color: var(--background-color);
+    font-size: var(--fonts-size-Texto-dos);
+    text-align: center;
+}
+
+
+
+/*==============GENERAL TEXTOS================*/
+
+.section-contenedor-about-me-y-tec {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-general-div-section-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+    height: 300px;
+    width: 50%;
+}
+
+.fondo-section-6-osc {
+    background-color: var(--primer-color);
+}
+
+.fondo-section-6-cla {
+    background-color: var(--segundo-color);
+}
+
+
+.title-general-text{
+    font-family: "Titulo-Uno";
+    color: var(--segundo-color);
+    font-size: var(--fonts-size-title-tres);
+    text-align: center;
+}
+
+.p-general-text-dos {
+    font-family: "Texto-Uno";
+    color: var(--background-color);
+    font-size: var(--fonts-size-Texto-dos);
+    text-align: center;
+    padding: 7px;
+}
+
+.title-general-text-oscuro{
+    font-family: "Titulo-Uno";
+    color: var(--primer-color);
+    font-size: var(--fonts-size-title-tres);
+    text-align: center;
+}
+
+.p-general-text-oscuro{
+    font-family: "Texto-Uno";
+    color: var(--primer-color);
+    font-size: var(--fonts-size-Texto-dos);
+    text-align: center;
+    padding: 7px;
+}
