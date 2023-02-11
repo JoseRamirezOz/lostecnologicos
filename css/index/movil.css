@@ -134,7 +134,7 @@
 
 .fondo-general-DW {
     background-color: var(--primer-color);
-    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+    clip-path: polygon(0 2%, 100% 0, 100% 98%, 0% 100%);
 }
 
 .section-contenedor-desarrollo-web {

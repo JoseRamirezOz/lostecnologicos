@@ -4,7 +4,7 @@
 }
 
 .otros-dispositivos-general-div-con-imagen{
-    width: 600px;
+    width: 500px;
 }
 
 .title-general-text-oscuro {
@@ -88,7 +88,7 @@
 
 .fondo-general-DW {
     background-color: var(--primer-color);
-    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+    clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
 }
 
 .section-contenedor-desarrollo-web {
@@ -254,71 +254,4 @@
 
 .maps-iframe {
     border-radius: var(--border-radius-principal);
-}
-
-
-
-/*==============footer================*/
-footer{
-    background-color: var(--primer-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    gap: 10px 10px;
-    padding: 20px 10px 10px 10px;
-    margin-top: 3px;
-}
-
-.contenedor-links{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-    gap: 30px 30px;
-}
-
-.link-texto{
-    font-family: var(--fonts-Texto-uno);
-    color: var(--segundo-color);
-    font-size: var(--fonts-size-Texto-dos );
-    text-align: center;
-    padding: 10px 3px 10px 3px;
-    text-decoration: none;
-    transition: var(--transition);
-}
-
-.link-texto:hover{
-    font-family: var(--fonts-Texto-uno);
-    color: var(--background-color);
-    font-size: var(--fonts-size-Texto-dos);
-    text-align: center;
-    text-decoration: none;
-    transform: scale(1.1);
-}
-
-.contenedor-logotipos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.link-logo-tipo{
-    font-family: var(--fonts-Texto-uno);
-    color: var(--background-color);
-    font-size: var(--fonts-size-title-tres);
-    text-align: center;
-    padding: 10px;
-    transition: var(--transition);
-}
-
-.link-logo-tipo:hover{
-    transform: scale(1.1);
-}
-
-.logo-general{
-    width: 140px;
 }

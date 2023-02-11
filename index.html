@@ -8,8 +8,8 @@
 
     <!-- Metadatos SEO -->
     <title>Los Tecnologicos</title>
-    <meta name="description" content="Descripción de la página">
-    <meta name="keywords" content="palabras clave, separadas, por, comas">
+    <meta name="description" content="Transformando la tecnología en soluciones eficientes. Bienvenidos a Los Tecnologicos, su distribuidor confiable de equipo de cómputo y cámaras">
+    <meta name="keywords" content="Los Tecnologicos, Venta de productos al mayoreo, Camaras de seguridad, Componentes par computadora, Desarrollo web a medida">
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
 
@@ -23,17 +23,17 @@
     <meta http-equiv="Pragma" content="no-cache">
 
     <!-- Metadatos para redes sociales -->
-    <meta property="og:title" content="Título de la página">
-    <meta property="og:description" content="Descripción de la página">
-    <meta property="og:image" content="URL de la imagen destacada">
+    <meta property="og:title" content="Los Tecnologicos">
+    <meta property="og:description" content="Transformando la tecnología en soluciones eficientes. Bienvenidos a Los Tecnologicos, su distribuidor confiable de equipo de cómputo y cámaras">
+    <meta property="og:image" content="./images/componentes/banner.jpeg">
     <meta property="og:url" content="URL de la página">
     <meta property="og:type" content="website">
 
     <!-- Metadatos para redes sociales TWITER -->
-    <meta property="twitter:site_name" content="" />
-    <meta property="twitter:title" content="" />
-    <meta property="twitter:description" content="" />
-    <meta property="twitter:image" content="" />
+    <meta property="twitter:site_name" content="Los Tecnologicos" />
+    <meta property="twitter:title" content="Venta de productos" />
+    <meta property="twitter:description" content="Transformando la tecnología en soluciones eficientes. Bienvenidos a Los Tecnologicos, su distribuidor confiable de equipo de cómputo y cámaras" />
+    <meta property="twitter:image" content="./images/componentes/banner.jpeg" />
 
     <!-- Otros metadatos -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -58,53 +58,55 @@
 
     <!-----------------Header componente!!!----------------------->
     <header>
-        <nav id="navBar" class="navbar navbar-dark bg-dark fixed-top">
+        <nav id="navBar" class="navbar navbar-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                    <p class="navbar-toggler-icon"></p>
+                <a class="navbar-brand" href="#"><img width="100px" src="./images/LOGOS/logo.png" alt=""
+                        class="logo-general"></a>
+                <button id="navbar-toggler" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" style="padding-right: 8px; padding-left: 8px; padding-bottom: 3.500; padding-bottom: 4px;
+                " aria-controls="offcanvasDarkNavbar">
+                    <i class="fa-solid fa-bars"></i>
                 </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar"
                     aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
+                        <a class="navbar-brand" href="#"><img width="100px" src="./images/LOGOS/logo.png" alt=""
+                            class="logo-general"></a>
+                        <button id="btn-close" type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            ></button>
                     </div>
+                    <div class="linea-div" style="margin: 5px 0px 5px 0px;"></div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a id="texto-nav" class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>                        
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a id="texto-nav" class="nav-link active" aria-current="page" href="#reparacion" >Reparación de equipos</a>
                             </li>
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a id="texto-nav" class="nav-link" href="#websites">Desarrollo Web</a>
+                            </li>   
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a id="texto-nav" class="nav-link active" aria-current="page" href="#tec-about">Soporte Tec y Nosotros</a>
+                            </li>       
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                                <a id="texto-nav" class="nav-link" href="#contacto">Contacto</a>
+                            </li>      
+                            <li class="nav-item" >
+                                <a id="texto-nav" class="nav-link" href="#">Camaras</a>
+                            </li>   
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-success" type="submit">Search</button>
-                        </form>
+                                <a id="texto-nav" class="nav-link" href="#">Componentes pc</a>
+                            </li>   
+                        </ul>               
                     </div>
                 </div>
             </div>
         </nav>
     </header>
 
+    
     <!-----------------Banner principal----------------------->
     <section class="section-contenedor-banner-principal">
         <div class="otros-dispositivos-general-div">
@@ -131,7 +133,7 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <div class="col-md-3">
-                                <div class="card-img">
+                                <div id="reparacion" class="card-img">
                                     <img src="./images/camaras/slider/camara-1.png" class="img-fluid">
                                 </div>
                             </div>
@@ -188,8 +190,9 @@
 
     </section>
 
+
     <!-----------------Seccion de reparacion----------------------->
-    <section class="section-contenedor-reparacion">
+    <section class="section-contenedor-reparacion" >
         <div class="otros-dispositivos-general-div-con-imagen">
             <h4 class="title-general-text-oscuro">Reparaciones de equipos de computo </h4>
             <p class="p-general-text-oscuro">"Soluciones técnicas confiables para hogar y empresas. Mantenimiento
@@ -201,8 +204,9 @@
         <img class="imagen-reparacion" src="./images/index/reparacion.png" alt="">
     </section>
 
+
     <!-----------------desarrollo web---------------------->
-    <div class="fondo-general-DW">
+    <div class="fondo-general-DW" id="websites">
         <section class="section-contenedor-desarrollo-web">
             <div class="dw-banner-con-table">
                 <div class="otros-dispositivos-general-div-con-imagen">
@@ -302,22 +306,21 @@
 
         <div class="content-razones">
             <i class="fa-solid iconos-razones fa-money-bill-trend-up"></i>
-            <p class="p-general-text-oscuro">Excelente Servicio al cliente</p>
+            <p class="p-general-text-oscuro">Precios competitivos ante el mercado</p>
         </div>
 
         <div class="content-razones">
             <i class="fa-solid iconos-razones fa-people-carry-box"></i>
-            <p class="p-general-text-oscuro">Excelente Servicio al cliente</p>
+            <p class="p-general-text-oscuro">Conocimiento en el sector</p>
         </div>
 
         <div class="content-razones">
             <i class="fa-solid iconos-razones fa-computer"></i>
-            <p class="p-general-text-oscuro">Variedad de productos
-            </p>
+            <p class="p-general-text-oscuro">Variedad de productos para pc</p>
         </div>
     </section>
 
-    <main class="slider-fondo">
+    <main class="slider-fondo" id="tec-about">
         <div class="testimonial-slider">
             <div class="testimonial-slide">
                 <div class="testimonial_box-top">
@@ -359,10 +362,11 @@
 
 
     <!-----------------about me y tec---------------------->
-    <section class="section-contenedor-about-me-y-tec">
+    <section class="section-contenedor-about-me-y-tec" >
         <div class="contenedor-general-div-section-6 fondo-section-6-osc">
             <h4 class="title-general-text">Soporte Tec. Empresarial</h4>
-            <p class="p-general-text-dos otros-dispositivos-general-div-con-imagen">El Soporte Tecnico Empresarial es esencial para
+            <p class="p-general-text-dos otros-dispositivos-general-div-con-imagen">El Soporte Tecnico Empresarial es
+                esencial para
                 garantizar el éxito y la
                 eficiencia de una empresa. En este sentido, nos esforzamos por entender las dinámicas únicas de cada
                 organización y trabajamos en estrecha colaboración con ellas para implementar soluciones eficaces y
@@ -377,13 +381,14 @@
                 brinddamos una experiencia de alta calidad y soporte continuo para garantizar el éxito a largo plazo.
             </p>
         </div>
+        <div  id="contacto"></div>
     </section>
 
     <!-----------------formulario---------------------->
 
     <section class="contacto-y-ubicacion">
 
-        <form action="./envia.php" method="POST" class="form_contact">
+        <form action="./componentesPHP/envia.php" method="POST" class="form_contact">
             <h4 class="title-general-text-dos">Contacto</h4>
 
             <div class="user_info">
@@ -404,7 +409,8 @@
         </form>
 
         <div class="contentenedor-direccion row-50%-div">
-            <p class="logotipo-fa"><i class="fa-solid fa-location-dot" style="padding-right: 5px;"></i>Zihuatanejo, Gurrero</p>
+            <p class="logotipo-fa"><i class="fa-solid fa-location-dot" style="padding-right: 5px;"></i>Zihuatanejo,
+                Gurrero</p>
             <iframe class="maps-iframe"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7635.535097898348!2d-99.95232123220407!3d16.887389602240926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85caf9b6c20a853f%3A0xaa2196fdf0d6abef!2sGobierno%20Estado%20Guerrero!5e0!3m2!1ses!2scr!4v1675754132742!5m2!1ses!2scr"
                 width="90%" height="200px" allowfullscreen="" loading="lazy"
@@ -431,9 +437,8 @@
             <a class="link-logo-tipo" target="_blank" href=""><i class="fa-solid fa-phone link-logo-tipo"></i></a>
         </div>
 
-        <div class="linea-div"></div>
-
-        <img src="" alt="" class="logo-general">
+        <a class="navbar-brand" href="#"><img width="100px" src="./images/LOGOS/logo.png" alt=""
+                class="logo-general"></a>
 
     </footer>
 
