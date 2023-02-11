@@ -1,6 +1,6 @@
 var $root = $('html, body');
 
-$('a[href^="#"]').click(function () {
+$('a.scroll-link[href^="#"]').click(function () {
     var href = $.attr(this, 'href');
 
     $root.animate({
@@ -11,4 +11,3 @@ $('a[href^="#"]').click(function () {
 
     return false;
 });
-

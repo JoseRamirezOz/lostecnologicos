@@ -136,13 +136,13 @@ header {
     position: fixed;
     background-color: var(--primer-color);
     z-index: 9999999;
-
 }
 
 #navBar {
     background-color: var(--primer-color);
     padding: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    z-index: 9999999;
 }
 
 
@@ -162,6 +162,7 @@ header {
     font-size: 2rem;
     opacity: 1;
     transition: var(--transition);
+    z-index: 9999999;
 }
 
 #btn-close:hover {
@@ -172,6 +173,7 @@ header {
 /*-----MENU DESPLEGABLE-----*/
 #offcanvasDarkNavbar {
     background-color: var(--primer-color);
+    z-index: 9999999;
 }
 
 

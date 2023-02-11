@@ -57,54 +57,7 @@
 <body>
 
     <!-----------------Header componente!!!----------------------->
-    <header>
-        <nav id="navBar" class="navbar navbar-dark fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img width="100px" src="./images/LOGOS/logo.png" alt=""
-                        class="logo-general"></a>
-                <button id="navbar-toggler" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasDarkNavbar" style="padding-right: 8px; padding-left: 8px; padding-bottom: 3.500; padding-bottom: 4px;
-                " aria-controls="offcanvasDarkNavbar">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar"
-                    aria-labelledby="offcanvasDarkNavbarLabel">
-                    <div class="offcanvas-header">
-                        <a class="navbar-brand" href="#"><img width="100px" src="./images/LOGOS/logo.png" alt=""
-                            class="logo-general"></a>
-                        <button id="btn-close" type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            ></button>
-                    </div>
-                    <div class="linea-div" style="margin: 5px 0px 5px 0px;"></div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a id="texto-nav" class="nav-link active" aria-current="page" href="#">Inicio</a>
-                            </li>                        
-                            <li class="nav-item" data-bs-dismiss="offcanvas">
-                                <a id="texto-nav" class="nav-link active" aria-current="page" href="#reparacion" >Reparación de equipos</a>
-                            </li>
-                            <li class="nav-item" data-bs-dismiss="offcanvas">
-                                <a id="texto-nav" class="nav-link" href="#websites">Desarrollo Web</a>
-                            </li>   
-                            <li class="nav-item" data-bs-dismiss="offcanvas">
-                                <a id="texto-nav" class="nav-link active" aria-current="page" href="#tec-about">Soporte Tec y Nosotros</a>
-                            </li>       
-                            <li class="nav-item" data-bs-dismiss="offcanvas">
-                                <a id="texto-nav" class="nav-link" href="#contacto">Contacto</a>
-                            </li>      
-                            <li class="nav-item" >
-                                <a id="texto-nav" class="nav-link" href="#">Camaras</a>
-                            </li>   
-                            <li class="nav-item">
-                                <a id="texto-nav" class="nav-link" href="#">Componentes pc</a>
-                            </li>   
-                        </ul>               
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <?php require('./componentesPHP/header.php')?>
 
     
     <!-----------------Banner principal----------------------->
@@ -133,7 +86,7 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <div class="col-md-3">
-                                <div id="reparacion" class="card-img">
+                                <div class="card-img">
                                     <img src="./images/camaras/slider/camara-1.png" class="img-fluid">
                                 </div>
                             </div>
@@ -192,7 +145,7 @@
 
 
     <!-----------------Seccion de reparacion----------------------->
-    <section class="section-contenedor-reparacion" >
+    <section class="section-contenedor-reparacion"  id="reparacion" >
         <div class="otros-dispositivos-general-div-con-imagen">
             <h4 class="title-general-text-oscuro">Reparaciones de equipos de computo </h4>
             <p class="p-general-text-oscuro">"Soluciones técnicas confiables para hogar y empresas. Mantenimiento
@@ -419,28 +372,7 @@
     </section>
 
     <!-----------------footer---------------------->
-    <footer>
-        <div class="contenedor-links">
-            <a class="link-texto" href="">• Inicio</a>
-            <a class="link-texto" href="">• Camaras</a>
-            <a class="link-texto" href="">• Reparación de equipos</a>
-            <a class="link-texto" href="">• Desarrollo Web</a>
-            <a class="link-texto" href="">• Soporte Tec. Empresarial</a>
-            <a class="link-texto" href="">• Componentes pc</a>
-        </div>
-
-        <div class="contenedor-logotipos">
-            <a class="link-logo-tipo" target="_blank" href=""><i class="fa-brands fa-instagram link-logo-tipo"></i></a>
-            <a class="link-logo-tipo" target="_blank" href=""><i class="fa-brands fa-facebook link-logo-tipo"></i></a>
-            <a class="link-logo-tipo" target="_blank" href=""><i class="fa-brands fa-tiktok link-logo-tipo"></i></a>
-            <a class="link-logo-tipo" target="_blank" href=""><i class="fa-solid fa-envelope link-logo-tipo"></i></a>
-            <a class="link-logo-tipo" target="_blank" href=""><i class="fa-solid fa-phone link-logo-tipo"></i></a>
-        </div>
-
-        <a class="navbar-brand" href="#"><img width="100px" src="./images/LOGOS/logo.png" alt=""
-                class="logo-general"></a>
-
-    </footer>
+    <?php require('./componentesPHP/footer.php')?>
 
 
     <!-- Formulario -->

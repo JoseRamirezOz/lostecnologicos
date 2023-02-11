@@ -21,19 +21,7 @@
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
                                 <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="#">Inicio</a>
-                            </li>                        
-                            <li class="nav-item" data-bs-dismiss="offcanvas">
-                                <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="#reparacion" >Reparación de equipos</a>
-                            </li>
-                            <li class="nav-item" data-bs-dismiss="offcanvas">
-                                <a id="texto-nav" class="nav-link scroll-link" href="#websites">Desarrollo Web</a>
-                            </li>   
-                            <li class="nav-item" data-bs-dismiss="offcanvas">
-                                <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="#tec-about">Soporte Tec y Nosotros</a>
-                            </li>       
-                            <li class="nav-item" data-bs-dismiss="offcanvas">
-                                <a id="texto-nav" class="nav-link scroll-link" href="#contacto">Contacto</a>
-                            </li>      
+                            </li>  
                             <li class="nav-item" >
                                 <a id="texto-nav" class="nav-link" href="#">Camaras</a>
                             </li>   
