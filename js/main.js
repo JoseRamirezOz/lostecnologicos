@@ -15,10 +15,10 @@ $('a.scroll-link[href^="#"]').click(function () {
 
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll >= 300) {
+    if (scroll >= 500) {
         $("#navBar").removeClass("sticky-top").addClass("fixed-top");
     } else {
         $("#navBar").removeClass("fixed-top").addClass("sticky-top");
-        $('#navBar').hide().fadeIn(500);
+        $("#navBar").hide().slideDown(600);
     }
 });

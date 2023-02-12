@@ -141,7 +141,7 @@ header {
 #navBar {
     background-color: var(--primer-color);
     padding: 15px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     z-index: 9999999;
     position: fixed;
 
@@ -217,7 +217,7 @@ footer {
     align-items: center;
 
     gap: 10px 10px;
-    padding: 10px;
+    padding: 15px 10px;
     margin-top: 3px;
 }
 
@@ -226,6 +226,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding: 10px;
 }
 
 .link-texto {
@@ -254,6 +256,10 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 5px 15px;
+
+    padding:10px 10px 5px 10px ;
+    margin-bottom: 20px;
+    border-bottom: 2px var(--background-color) solid;
 }
 
 .link-logo-tipo {

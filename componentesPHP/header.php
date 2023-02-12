@@ -19,7 +19,7 @@
                     <div class="linea-div" style="margin: 5px 0px 5px 0px;"></div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
+                            <li class="nav-item" data-bs-dismiss="offcanvas">
                                 <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="#inicio">Inicio</a>
                             </li>                        
                             <li class="nav-item" data-bs-dismiss="offcanvas">

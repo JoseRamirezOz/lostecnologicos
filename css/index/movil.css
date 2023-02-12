@@ -1,3 +1,74 @@
+/*===================VIDEOl===================*/
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+
+    z-index: 223;
+
+    background: -webkit-linear-gradient(to top, #00000054, #00000054);
+    background: linear-gradient(to top, #00000054, #00000054);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.titulo-de-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: "Texto-Dos";
+    color: var(--background-color);
+    font-size: 35px;
+    text-align: center;
+}
+
+.fa-square-caret-down {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: var(--background-color);
+    font-size: 30px;
+    text-align: center;
+
+
+    animation: MoveUpDown 3s linear infinite;
+}
+
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 100px;
+    }
+}
+
+
+
+
+
 /*===================Banner principal===================*/
 .section-contenedor-banner-principal {
     background-image: url(../../images/index/banner-principal.jpeg);
@@ -18,6 +89,8 @@
     align-items: center;
 
     padding-bottom: 10vh;
+
+    clip-path: polygon(0 0%, 100% 0, 100% 98%, 0% 100%);
 }
 
 .title-general-text {
@@ -30,10 +103,18 @@
 .p-general-text {
     font-family: "Texto-Uno";
     color: var(--background-color);
-    font-size: var(--fonts-size-Texto-dos);
+    font-size: var(--fonts-size-Texto-uno);
     text-align: center;
     padding: 7px;
 }
+
+
+
+
+
+
+
+
 
 /*===================seccion de camara===================*/
 .section-contenedor-camaras {
@@ -48,7 +129,7 @@
 .title-general-text-oscuro {
     font-family: "Titulo-Uno";
     color: var(--primer-color);
-    font-size: var(--fonts-size-title-tres);
+    font-size: var(--fonts-size-title-dos);
     text-align: center;
 }
 
@@ -126,7 +207,7 @@
 
 .imagen-reparacion {
     width: 300px;
-    clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+
 }
 
 
@@ -143,7 +224,7 @@
     justify-content: center;
     align-items: center;
 
-    padding: 30px 5px 30px 5px;
+    padding: 40px 5px 50px 5px;
     background-color: var(--tercer-color);
 }
 
@@ -300,6 +381,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .contenedor-general-div-section-6 {
@@ -308,7 +390,7 @@
     justify-content: center;
     align-items: center;
 
-    padding: 10px 1px;
+    padding: 10px;
     height: 300px;
 }
 
@@ -363,18 +445,18 @@
     .padding-text-general {
         padding: 30px 0px 0px 0px;
     }
-    
+
     .cajas-de-razones {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-    
+
         gap: 4px 4px;
         padding: 20px 0px;
     }
-    
+
     .content-razones {
         width: 135px;
         height: 135px;
