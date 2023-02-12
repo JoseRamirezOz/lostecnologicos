@@ -87,7 +87,7 @@
         <section class="section-contenedor-banner-principal">
             <div>
                 <h1 class="title-general-text">Los Tecnologicos</h1>
-                <p class="p-general-text">Los Tecnologicos es una empresa que ofrece soluciones eficientes a través de la distribución de equipos de cómputo y cámaras, soporte técnico empresarial y una amplia variedad de productos y componentes para computadoras. Su atención al cliente de calidad y su equipo de expertos en tecnología les permite adaptarse a las necesidades de cada cliente y ser un socio tecnológico confiable para impulsar el éxito empresarial en un mundo digital.</p>
+                <p class="p-general-text">Los Tecnológicos es una empresa que ofrece soluciones de tecnología a través de la distribución de equipos de cómputo, cámaras y componentes para computadoras, así como soporte técnico empresarial. Su enfoque en la atención al cliente y su equipo de expertos en tecnología les permite adaptarse a las necesidades de cada cliente y ser un socio tecnológico confiable para impulsar el éxito empresarial en un mundo digital.</p>
             </div>
         </section>
 
@@ -99,6 +99,7 @@
                 <p class="p-general-text-oscuro">Ofrecemos cámaras de alta calidad y servicio de instalación profesional
                     para un
                     sistema de seguridad óptimo, con soluciones personalizadas para hogar o negocio.</p>
+                    <a class="link-a-general-para-sub-paginas" href="">Ver mas</a>
             </div>
             <div class="container text-center my-3">
                 <div class="row mx-auto my-auto justify-content-center">
@@ -155,7 +156,7 @@
                         </a>
                         <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
                             data-bs-slide="next">
-                            <p id="reparacion" class="carousel-control-next-icon" aria-hidden="true"></p>
+                            <p  class="carousel-control-next-icon" aria-hidden="true"></p>
                         </a>
                     </div>
                 </div>
@@ -164,17 +165,20 @@
         </section>
 
 
+
+        <div id="reparacion"></div>
         <!-----------------Seccion de reparacion----------------------->
         <section class="section-contenedor-reparacion">
+        <img class="imagen-reparacion" src="./images/index/reparacion.png"  alt="">
             <div class="otros-dispositivos-general-div-con-imagen">
                 <h4 class="title-general-text-oscuro">Reparaciones de equipos de computo </h4>
                 <p class="p-general-text-oscuro">"Soluciones técnicas confiables para hogar y empresas. Mantenimiento
                     preventivo y
                     correctivo con rapidez y eficacia. Servicio profesional y personalizado para cada cliente. Ofrecemos
                     soluciones
-                    a medida para su comodidad y satisfacción."</p>
+                    a medida para su comodidad y satisfacción."</p>                   
             </div>
-            <img class="imagen-reparacion" src="./images/index/reparacion.png"  alt="">
+            
         </section>
 
 
@@ -284,22 +288,22 @@
         <section class="cajas-de-razones">
             <div class="content-razones">
                 <i class="fa-solid iconos-razones fa-headset"></i>
-                <p class="p-general-text-oscuro">Excelente Servicio al cliente</p>
+                <p class="p-general-text-oscuro hAltura-caja">Excelente Servicio al cliente</p>
             </div>
 
             <div class="content-razones">
                 <i class="fa-solid iconos-razones fa-money-bill-trend-up"></i>
-                <p class="p-general-text-oscuro">Precios competitivos ante el mercado</p>
+                <p class="p-general-text-oscuro hAltura-caja">Precios competitivos ante el mercado</p>
             </div>
 
             <div class="content-razones">
                 <i class="fa-solid iconos-razones fa-people-carry-box"></i>
-                <p class="p-general-text-oscuro">Conocimiento en el sector</p>
+                <p class="p-general-text-oscuro hAltura-caja">Conocimiento en el sector</p>
             </div>
 
             <div class="content-razones">
                 <i class="fa-solid iconos-razones fa-computer"></i>
-                <p class="p-general-text-oscuro">Variedad de productos para pc</p>
+                <p class="p-general-text-oscuro hAltura-caja">Variedad de productos para pc</p>
             </div>
         </section>
 
@@ -343,6 +347,19 @@
             </div>
         </main>
 
+        <!-----------------Seccion de reparacion----------------------->
+        <section class="section-contenedor-componentes">
+            <div class="otros-dispositivos-general-div-con-imagen">
+                <h4 class="title-general-text-oscuro">Reparaciones de equipos de computo </h4>
+                <p class="p-general-text-oscuro">"Soluciones técnicas confiables para hogar y empresas. Mantenimiento
+                    preventivo y
+                    correctivo con rapidez y eficacia. Servicio profesional y personalizado para cada cliente. Ofrecemos
+                    soluciones
+                    a medida para su comodidad y satisfacción."</p>
+                    <a style="background-color:#E4E4E4;" class="link-a-general-para-sub-paginas" href="">Ver mas</a>
+            </div>
+            <img class="imagen-componente" src="./images/componentes/computacion/pc_0.png"  alt="">
+        </section>
 
         <!-----------------about me y tec---------------------->
         <section class="section-contenedor-about-me-y-tec">
