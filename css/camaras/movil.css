@@ -33,12 +33,21 @@
 }
 
 
-/* CAMARAS DE VIGILANCIA */
+/* CONTAINER CAMARAS DE VIGILANCIA */
 .containerCamsVigilancia{
     display:flex;
     flex-direction:column;
+    justify-content:center;
+    align-items:center;
     padding-bottom:3rem;
     padding-top:3rem;
+}
+
+.camsVigilanciaSubContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
 .titleCamarasVig{
@@ -69,6 +78,13 @@
 
 /* DETALLES Y ESPECIFICACIONES */
 .detailsEspecificacionesContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.detailsEspecificacionesSubContainer{
     display:flex;
     flex-direction:column;
     justify-content:center;

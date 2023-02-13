@@ -1,0 +1,128 @@
+/* CONTAINER CAMARAS DE VIGILANCIA */
+.containerCamsVigilancia{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.camsVigilanciaSubContainer{
+    width:50%;
+}
+
+
+#carouselExampleInterval{
+    width:50%;
+}
+
+#carouselExampleInterval img{
+    width:30rem;
+    height:30rem;
+    object-fit:contain;
+}
+
+/* DETALLES Y ESPECIFICACIONES */
+.detailsEspecificacionesContainer{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:center;
+    align-items:center;
+}
+
+.detailsEspecificacionesSubContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:50%;
+}
+
+
+/* SERVICIOS DE INSTALACION */
+.servInstalacionContainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.servInstalacionSubContainer{
+    width:50%;
+}
+
+.servInstalacionContainerImgs{
+    width:50%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.servInstalacionImg{
+    object-fit:cover;
+    width:30rem;
+    height:30rem;
+}
+
+/* PRODUCTOS EN VENTA */
+.productsVentaContainer{
+    background:url("/images/camaras/banner.jpg");
+    width:100vw;
+    height:80vh;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    object-fit:contain;    
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    color:#fff;
+}
+
+/* MAS GUSTADOS */
+.gustadosTitle{
+    font-size:3rem;
+}
+
+.masGustadosContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.masGustadosSubContainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.gustadosFavoritos{
+    margin:2rem;
+}
+
+/* OFERTAS Y PROMOCIONES */
+.ofertasTitle{
+    font-size:3rem;
+}
+
+.ofertasContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.ofertasSubContainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.ofertasFavoritos{
+    margin:2rem;
+}
