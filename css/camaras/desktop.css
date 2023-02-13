@@ -1,128 +1,162 @@
+/* PRIMER CONTENEDOR DE CAMARAS */
+.containerCamaras{
+    background-image: url(/images/camaras/banner-prinpicipal.jpeg);
+    background: -webkit-linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000),
+        url(/images/camaras/banner-prinpicipal.jpeg);
+    background: linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000),
+        url(/images/camaras/banner-prinpicipal.jpeg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 0px 15vw 3vw 15vw;
+    
+}
+
+
 /* CONTAINER CAMARAS DE VIGILANCIA */
-.containerCamsVigilancia{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
+.containerCamsVigilancia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.camsVigilanciaSubContainer{
-    width:50%;
+.camsVigilanciaSubContainer {
+    width: 50%;
+}
+
+/*
+#carouselExampleInterval {
+    width: 50%;
+}
+
+#carouselExampleInterval img {
+    width: 30rem;
+    height: 30rem;
+    object-fit: contain;
+}
+*/
+
+
+
+/*=======================DETALLES Y ESPECIFICACIONES===========================*/
+.detailsEspecificacionesContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailsEspecificacionesSubContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+/*=======================PRODUCTOS EN VENTA=======================*/
+
+.productsVentaContainer {
+    background-image: url(/images/camaras/banner-dos.jpeg);
+    background: -webkit-linear-gradient(to top, #0000007d, #0000007d),
+        url(/images/camaras/banner-dos.jpeg);
+    background: linear-gradient(to top, #0000007d, #0000007d),
+        url(/images/camaras/banner-dos.jpeg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 70vh;
+    padding: 0px 10vw;
+
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*=======================SERVICIOS DE INSTALACION=======================*/
+.servInstalacionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.servInstalacionSubContainer {
+    width: 50%;
+}
+
+.servInstalacionContainerImgs {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.servInstalacionImg {
+    object-fit: cover;
+    width: 100%;
 }
 
 
-#carouselExampleInterval{
-    width:50%;
+
+/*=======================MAS GUSTADOS=======================*/
+.gustadosTitle {
+    font-size: 3rem;
 }
 
-#carouselExampleInterval img{
-    width:30rem;
-    height:30rem;
-    object-fit:contain;
+.masGustadosContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-/* DETALLES Y ESPECIFICACIONES */
-.detailsEspecificacionesContainer{
-    display:flex;
-    flex-direction:row-reverse;
-    justify-content:center;
-    align-items:center;
+.masGustadosSubContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.detailsEspecificacionesSubContainer{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    width:50%;
+.gustadosFavoritos {
+    margin: 2rem;
 }
 
-
-/* SERVICIOS DE INSTALACION */
-.servInstalacionContainer{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
+/*=======================OFERTAS Y PROMOCIONES=======================*/
+.ofertasTitle {
+    font-size: 3rem;
 }
 
-.servInstalacionSubContainer{
-    width:50%;
+.ofertasContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.servInstalacionContainerImgs{
-    width:50%;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
+.ofertasSubContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.servInstalacionImg{
-    object-fit:cover;
-    width:30rem;
-    height:30rem;
-}
-
-/* PRODUCTOS EN VENTA */
-.productsVentaContainer{
-    background:url("/images/camaras/banner.jpg");
-    width:100vw;
-    height:80vh;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    object-fit:contain;    
-
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-
-    color:#fff;
-}
-
-/* MAS GUSTADOS */
-.gustadosTitle{
-    font-size:3rem;
-}
-
-.masGustadosContainer{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-}
-
-.masGustadosSubContainer{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
-}
-
-.gustadosFavoritos{
-    margin:2rem;
-}
-
-/* OFERTAS Y PROMOCIONES */
-.ofertasTitle{
-    font-size:3rem;
-}
-
-.ofertasContainer{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-}
-
-.ofertasSubContainer{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
-}
-
-.ofertasFavoritos{
-    margin:2rem;
+.ofertasFavoritos {
+    margin: 2rem;
 }

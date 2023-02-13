@@ -33,6 +33,8 @@
 }
 
 
+
+
 /* CONTAINER CAMARAS DE VIGILANCIA */
 .containerCamsVigilancia{
     display:flex;
@@ -152,20 +154,25 @@
 
 /* PRODUCTOS EN VENTA */
 .productsVentaContainer{
-    background:url("/images/camaras/productsVenta.png");
-    width:100vw;
-    height:100vh;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    object-fit:contain;    
+   background-image: url(/images/camaras/banner-dos.jpeg);
+    background: -webkit-linear-gradient(to top, #0000007d, #0000007d),
+        url(/images/camaras/banner-dos.jpeg);
+    background: linear-gradient(to top, #0000007d,#0000007d),
+        url(/images/camaras/banner-dos.jpeg);
 
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
-    color:#fff;
+    height: 100vh;
+
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .productsVentaTitle{
@@ -192,6 +199,59 @@
     margin-bottom:1rem;
     font-family:var(--fonts-Titulo-uno);
 }
+
+/*-----Slider CAMARAS-----*/
+
+.carousel-control-next-icon {
+    background-color: #33333389;
+    border-radius: var(--border-radius-principal);
+    padding: 13px;
+    transition: var(--transition);
+}
+
+.carousel-control-prev-icon {
+    background-color: #33333389;
+    border-radius: var(--border-radius-principal);
+    padding: 13px;
+    transition: var(--transition);
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+
+
 
 
 /* MAS GUSTADOS */
@@ -253,7 +313,7 @@
     background:var(--segundo-background-color);
     height:auto;
     width:80%;
-    margin:0 auto;
+    margin:20px auto;
     border-radius:2rem;
     padding:1rem;
 

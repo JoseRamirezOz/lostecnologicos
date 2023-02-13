@@ -36,7 +36,7 @@
                             </li>      
                             <div class="linea-div" style="margin: 5px 0px 5px 0px; width: 100%;"></div>
                             <li class="nav-item" >
-                                <a id="texto-nav" class="nav-link" href="./addPages/camaras.html">• Camaras</a>
+                                <a id="texto-nav" class="nav-link" href="./addPages/camaras.php">• Camaras</a>
                             </li>   
                             <li class="nav-item">
                                 <a id="texto-nav" class="nav-link" href="./addPages/Componentes.php">• Componentes pc</a>

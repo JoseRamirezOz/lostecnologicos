@@ -24,10 +24,10 @@
                                 <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="/index">Inicio</a>
                             </li>                                                  
                             <li class="nav-item" >
-                                <a id="texto-nav" class="nav-link" href="./addPages/camaras.html">Camaras</a>
+                                <a id="texto-nav" class="nav-link" href="./camaras.php">Camaras</a>
                             </li>   
                             <li class="nav-item">
-                                <a id="texto-nav" class="nav-link" href="./addPages/Componentes.php">Componentes pc</a>
+                                <a id="texto-nav" class="nav-link" href="./Componentes.php">Componentes pc</a>
                             </li>   
                         </ul>               
                     </div>
