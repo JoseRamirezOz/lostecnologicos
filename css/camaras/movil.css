@@ -195,6 +195,13 @@
 
 
 /* MAS GUSTADOS */
+.masGustadosSubContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
 .gustadosTitle{
     font-family:var(--fonts-Titulo-uno);
     text-align:center;
@@ -210,12 +217,16 @@
     margin:0 auto;
     border-radius:2rem;
     padding:1rem;
+    margin-bottom:2rem;
+
 
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
 }
+
+
 
 .gustadosImg{
     width:25rem;
