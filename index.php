@@ -307,7 +307,7 @@
             </div>
         </section>
 
-        <main class="slider-fondo" id="tec-about">
+        <main class="slider-fondo">
             <div class="testimonial-slider-imgs">
                 <div class="testimonial-slide">
                     <div class="testimonial_box-top">
@@ -347,20 +347,18 @@
             </div>
         </main>
 
-        <!-----------------Seccion de reparacion----------------------->
+        <!-----------------Componentes----------------------->
         <section class="section-contenedor-componentes">
             <div class="otros-dispositivos-general-div-con-imagen">
-                <h4 class="title-general-text-oscuro">Reparaciones de equipos de computo </h4>
-                <p class="p-general-text-oscuro">"Soluciones técnicas confiables para hogar y empresas. Mantenimiento
-                    preventivo y
-                    correctivo con rapidez y eficacia. Servicio profesional y personalizado para cada cliente. Ofrecemos
-                    soluciones
-                    a medida para su comodidad y satisfacción."</p>
+                <h4 class="title-general-text-oscuro">Componentes de PC</h4>
+                <p class="p-general-text-oscuro">En Zitrix, nos enorgullece ofrecerle los mejores componentes de PC del mercado, para que pueda construir la computadora de sus sueños. Con nuestra amplia selección de productos de alta calidad, estamos dedicados a brindarle una experiencia de compra sin igual.</p>
                     <a style="background-color:#E4E4E4;" class="link-a-general-para-sub-paginas" href="">Ver mas</a>
             </div>
             <img class="imagen-componente" src="./images/componentes/computacion/pc_0.png"  alt="">
         </section>
 
+
+        <div id="tec-about"></div>
         <!-----------------about me y tec---------------------->
         <section class="section-contenedor-about-me-y-tec">
             <div class="contenedor-general-div-section-6 fondo-section-6-osc">

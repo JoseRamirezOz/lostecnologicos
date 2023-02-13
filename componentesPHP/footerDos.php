@@ -22,8 +22,8 @@
     <footer>
         <div class="contenedor-links">
             <a class="link-texto" href="/index">• Inicio</a>
-            <a class="link-texto" href="./addPages/camaras.html">• Soporte Tec. Empresarial</a>
-            <a class="link-texto" href="./addPages/camaras.html">• Componentes pc</a>
+            <a class="link-texto" href="./addPages/camaras.php">• Camaras</a>
+            <a class="link-texto" href="./addPages/componentes.php">• Componentes pc</a>   
         </div>
 
         <div class="contenedor-logotipos">

@@ -1,24 +1,32 @@
 /* PRIMER CONTENEDOR DE CAMARAS */
 .containerCamaras{
-    background:url("/images/camaras/movilCamOne.jpg");
-    width:100vw;
-    height:100vh;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    object-fit:contain;    
+    background-image: url(/images/camaras/banner-prinpicipal.jpeg);
+    background: -webkit-linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000),
+        url(/images/camaras/banner-prinpicipal.jpeg);
+    background: linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000),
+        url(/images/camaras/banner-prinpicipal.jpeg);
 
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-bottom: 10vh;
 }
 
 .containerCamarasText{
     width:90%;
     margin:0 auto;
-    font-size:1.8rem;
-    color:#fff;
+    color: var(--background-color);
+    font-size: var(--fonts-size-Texto-dos);
+    font-family: var(--fonts-Texto-uno);
+    
     text-align:center;
     margin-bottom:5rem;
 }

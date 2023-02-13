@@ -6,8 +6,8 @@
             <a class="link-texto scroll-link" href="#websites">• Desarrollo Web</a>
             <a class="link-texto scroll-link" href="#tec-about">• Soporte Tec. Empresarial</a>
             <a class="link-texto scroll-link" href="#contacto">• Contacto</a>
-            <a class="link-texto" href="./addPages/camaras.html">• Camaras</a>
-            <a class="link-texto" href="./addPages/componentes.html">• Componentes pc</a>         
+            <a class="link-texto" href="./addPages/camaras.php">• Camaras</a>
+            <a class="link-texto" href="./addPages/componentes.php">• Componentes pc</a>         
         </div>
 
         <div class="contenedor-logotipos">
