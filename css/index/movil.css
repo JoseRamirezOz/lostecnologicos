@@ -96,23 +96,17 @@
 .title-general-text {
     font-family: "Titulo-Uno";
     color: var(--segundo-color);
-    font-size: var(--fonts-size-title-dos);
+    font-size: var(--fonts-size-title-tres);
     text-align: center;
 }
 
 .p-general-text {
     font-family: "Texto-Uno";
     color: var(--background-color);
-    font-size: var(--fonts-size-Texto-uno);
+    font-size: var(--fonts-size-Texto-dos);
     text-align: center;
     padding: 7px;
 }
-
-
-
-
-
-
 
 
 
@@ -140,6 +134,51 @@
     text-align: center;
     padding: 7px;
 }
+
+.otros-dispositivos-general-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 15px 5px;
+}
+
+.otros-dispositivos-general-div-con-imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 15px 5px;
+}
+
+.link-a-general-para-sub-paginas{
+    padding: 6px 12px;
+    background-color: var(--background-color);
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+
+    font-family: "Texto-uno";
+    color: var(--primer-color);
+    font-size: var(--fonts-size-title-uno);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    margin: 0% auto;
+
+    transition: var(--transition);
+    border-radius: var(--border-radius-principal);
+}
+
+.link-a-general-para-sub-paginas:hover{
+    color: var(--primer-color);
+    text-decoration: none;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
 
 /*-----Slider CAMARAS-----*/
@@ -198,7 +237,7 @@
 /*===================Reparaciones de equipos de computo===================*/
 .section-contenedor-reparacion {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
 
@@ -210,6 +249,22 @@
 
 }
 
+/*===================Componentes===================*/
+
+.section-contenedor-componentes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px 5px;
+    background-color: var(--segundo-color);
+}
+
+
+.imagen-componente{
+    width: 250px;
+}
 
 /*===================desarrollo web===================*/
 
@@ -342,7 +397,7 @@
 
 .content-razones {
     width: 150px;
-    height: 150px;
+    height: 170px;
     background-color: var(--segundo-background-color);
 
     display: flex;
@@ -353,6 +408,12 @@
     box-shadow: var(--sombra-secundaria);
     border-radius: var(--border-radius-principal);
     margin: 10px;
+}
+
+.hAltura-caja{
+    height: 83px;
+    margin-bottom: 0;
+    padding-bottom: 0%;
 }
 
 .iconos-razones {

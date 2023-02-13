@@ -149,11 +149,27 @@
 }
 
 .imagen-reparacion {
-    width: 290px;
+    width: 250px;
+    filter: grayscale(1);
 }
 
 
+/*===================Componentes===================*/
 
+.section-contenedor-componentes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 80vh;
+    background-color: var(--segundo-color);
+}
+
+.imagen-componente{
+    width: 450px;
+}
 
 
 /*===================desarrollo web===================*/
@@ -267,6 +283,61 @@
     height: 160px;
 }
 
+
+/*===================Razones para elegirnos===================*/
+.padding-text-general {
+    padding: 30px 0px 0px 0px;
+}
+
+.cajas-de-razones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px 10px;
+    padding: 20px 0px;
+}
+
+.content-razones {
+    width: 180px;
+    height: 150px;
+    background-color: var(--segundo-background-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: var(--border-radius-principal);
+    margin: 10px;
+}
+
+.hAltura-caja{
+    height: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.iconos-razones {
+    color: var(--primer-color);
+    font-size: var(--fonts-size-title-tres);
+}
+
+.content-image-logo-marcas {
+    width: 200px;
+    filter: grayscale(100%);
+
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.content-image-logo-marcas:hover {
+    width: 200px;
+    filter: grayscale(0%);
+}
 
 
 /*==============about me y tec================*/
