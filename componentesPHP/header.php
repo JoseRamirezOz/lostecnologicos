@@ -39,7 +39,7 @@
                                 <a id="texto-nav" class="nav-link" href="./addPages/camaras.php">• Camaras</a>
                             </li>   
                             <li class="nav-item">
-                                <a id="texto-nav" class="nav-link" href="./addPages/Componentes.php">• Componentes pc</a>
+                                <a id="texto-nav" class="nav-link" href="./addPages/componentes.php">• Componentes pc</a>
                             </li>   
                         </ul>               
                     </div>
