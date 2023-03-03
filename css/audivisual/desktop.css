@@ -1,0 +1,146 @@
+.title-general-text{
+    font-family: "Titulo-tres";
+    color: var(--segundo-color);
+    font-size: var(--fonts-size-title-cuatro);
+    text-align: center;
+}
+
+.link-banner-principal{
+    font-family: "titulo-cuatro";
+    color: var(--background-color);
+    font-size: var(--fonts-size-Texto-dos);
+
+    text-align: center;
+    padding:7px 12px;
+    border: 2.5px solid #ffffff;
+    text-decoration: none;
+
+    transition: var(--transition);
+}
+
+.link-banner-principal:hover{
+    color: var(--background-color);
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+/*==========SECTION DE VIDEOS=============*/
+
+.section-cotenedor-de-videos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-general-de-secciones{
+    font-family: "Titulo-tres";
+    color: var(--primer-color);
+    font-size: var(--fonts-size-title-tres);
+    text-align: center;
+    padding: 50px 20px 0px 20px;
+}
+
+.cotenedor-de-videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px 20px;
+}
+
+.cotenedor-videos{
+    width: 340px;
+    height: auto;
+}
+
+
+/*==========SECTION DE imagenes=============*/
+
+.section-cotenedor-de-imagenes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cotenedor-de-imagenes{
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    padding:10px 20px 20px 20px;
+}
+
+.img-cotenedor-de-imagenes{
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+}
+
+
+
+/*==============informacion================*/
+
+.cotenedor-de-servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 30px  0px  30px  0px;
+    gap: 25px 25px;
+}
+
+.div-servicio-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px 10px;
+    width: 300px;
+    height: 80vh;
+    padding: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 6px;
+    transition: var(--transition);
+    filter: grayscale(1);
+    margin: 10px 0px 10px 0px;
+}
+
+.div-servicio-info:hover{
+    transform: scale(0.95);
+    filter: grayscale(0);
+}
+
+.img-serivicio{
+    width: 200px;
+}
+
+.nombre-servicio{
+    font-family: "titulo-tres";
+    color: var(--primer-color);
+    font-size: var(--fonts-size-Texto-dos);
+
+    text-align: center;
+    margin: 0;
+}
+
+.descripccion-servicio{
+    font-family: "texto-uno";
+    color: var(--primer-color);
+    font-size: var(--fonts-size-Texto-dos);
+
+    text-align: justify;
+    margin: 0;
+    padding: 10px;
+    height: 40vh;
+}
+

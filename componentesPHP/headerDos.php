@@ -24,11 +24,14 @@
                                 <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="/">Inicio</a>
                             </li>                                                  
                             <li class="nav-item" >
-                                <a id="texto-nav" class="nav-link" href="./camaras.php">Camaras</a>
+                                <a id="texto-nav" class="nav-link" href="/addPages/camaras.php">Camaras</a>
                             </li>   
                             <li class="nav-item">
-                                <a id="texto-nav" class="nav-link" href="./componentes.php">Componentes pc</a>
+                                <a id="texto-nav" class="nav-link" href="/addPages/componentes.php">Componentes pc</a>
                             </li>   
+                            <li class="nav-item">
+                                <a id="texto-nav" class="nav-link" href="/addPages/audiovisual.php">Video y Fotografia</a>
+                            </li>  
                         </ul>               
                     </div>
                 </div>

@@ -74,12 +74,6 @@
         <i class="fa-solid fa-square-caret-down"></i>
     </section>
 
-
-
-
-
-
-
             
     <section style="background-color: #ffffff;">
         
