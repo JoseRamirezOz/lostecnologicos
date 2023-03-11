@@ -39,6 +39,7 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 
   <!-- ESTILOS EN CSS -->
+  <link rel="stylesheet" href="../css/index/formulario.css" />
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" media="(min-width:320px)" href="../css/audivisual/movil.css" />
   <link rel="stylesheet" media="(min-width:768px)" href="../css/audivisual/tablet.css" />
@@ -50,6 +51,10 @@
   <!-- SLIDER GENERAL -->
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css'>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css'>
+
+  <!--AOS ANIMACION----->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 
@@ -60,8 +65,8 @@
 
   <!--Banner -->
   <section class="section-contenedor-banner-principal">
-    <h1 class="title-general-text">VIDEO Y FOTOGRAFIA</h1>
-    <a class="scroll-link link-banner-principal" href="#contenido">VER MI TRABAJO</a>
+    <h1 data-aos="fade-up" data-aos-duration="1000" class="title-general-text">VIDEO Y FOTOGRAFIA</h1>
+    <a data-aos="fade-up" data-aos-duration="1000" class="scroll-link link-banner-principal" href="#contenido">VER MI TRABAJO</a>
   </section>
 
   <!--contenedor del slider -->
@@ -104,13 +109,13 @@
     <h2 class="titulo-general-de-secciones" id="contenido">Nuestros videos</h2>
 
     <div class="cotenedor-de-videos">
-      <video loading="lazy" autoplay loop muted style="border-radius: 6px;" class="cotenedor-videos"
+      <video data-aos="fade-down" data-aos-duration="1000" loading="lazy" autoplay loop muted style="border-radius: 6px;" class="cotenedor-videos"
         src="../images/audiovisual/section de camaras/construccion.mp4"></video>
 
-      <video loading="lazy" autoplay loop muted style="border-radius: 6px;" class="cotenedor-videos"
+      <video data-aos="fade-down" data-aos-duration="1500" loading="lazy" autoplay loop muted style="border-radius: 6px;" class="cotenedor-videos"
         src="../images/audiovisual/section de camaras/boda.mp4"></video>
 
-      <video loading="lazy" autoplay loop muted style="border-radius: 6px;" class="cotenedor-videos"
+      <video data-aos="fade-down" data-aos-duration="2000"loading="lazy" autoplay loop muted style="border-radius: 6px;" class="cotenedor-videos"
         src="../images/audiovisual/section de camaras/granja.mp4"></video>
     </div>
   </section>
@@ -121,21 +126,21 @@
     <h2 class="titulo-general-de-secciones">Nuestras fotografias</h2>
 
     <div class="cotenedor-de-imagenes">
-      <img loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/1.jpg" alt=""
+      <img data-aos="flip-right" data-aos-duration="1000" loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/1.jpg" alt=""
         class="img-cotenedor-de-imagenes modal-img">
-      <img loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/2.jpg" alt=""
+      <img data-aos="flip-right" data-aos-duration="1000"  loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/2.jpg" alt=""
         class="img-cotenedor-de-imagenes modal-img">
-      <img loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/3.jpg" alt=""
+      <img data-aos="flip-right" data-aos-duration="1000"  loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/3.jpg" alt=""
         class="img-cotenedor-de-imagenes modal-img">
-      <img loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/4.jpg" alt=""
+      <img data-aos="flip-right" data-aos-duration="1000"  loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/4.jpg" alt=""
         class="img-cotenedor-de-imagenes modal-img">
-      <img loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/5.jpg" alt=""
+      <img data-aos="flip-right" data-aos-duration="1000"  loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/5.jpg" alt=""
         class="img-cotenedor-de-imagenes modal-img">
-      <img loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/6.jpg" alt=""
+      <img data-aos="flip-right" data-aos-duration="1000"  loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/6.jpg" alt=""
         class="img-cotenedor-de-imagenes modal-img">
-      <img loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/7.jpg" alt=""
+      <img data-aos="flip-right" data-aos-duration="1000"  loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/7.jpg" alt=""
         class="img-cotenedor-de-imagenes modal-img">
-      <img loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/8.jpg" alt=""
+      <img data-aos="flip-right" data-aos-duration="1000"  loading="lazy" data-lightbox="grupo-de-imagenes" src="../images/audiovisual/portafolioIMG/8.jpg" alt=""
         class="img-cotenedor-de-imagenes modal-img">
     </div>
   </section>
@@ -144,7 +149,7 @@
   <section class="section-cotenedor-de-videos">
     <h2 class="titulo-general-de-secciones" id="contenido">Nuestros servicios</h2>
 
-    <div class="cotenedor-de-servicios">
+    <div data-aos="fade-up" data-aos-duration="1000" class="cotenedor-de-servicios">
       <div class="div-servicio-info">
         <img src="../images/audiovisual/servicios/360.png" alt="" class="img-serivicio">
         <h3 class="nombre-servicio">Cabina de fotos 360</h3>
@@ -179,9 +184,36 @@
     </div>
   </section>
 
+  <!--contenedor de servicios -->
+  <section class="section-cotenedor-de-contacto">
+    <form data-aos="fade-up" data-aos-duration="1000" action="../contactoPhp/enviaAudiosiaul.php" method="POST" class="form_contact"> 
+      <h4 class="titulo-general-de-secciones-contacto">Contacto para proyectos</h4>
+
+      <div class="user_info">
+          <label for="names"><i class="fas fa-user-alt"></i> Nombre</label>
+          <input type="text" id="names" name="nombre" required>
+
+          <label for="phone"><i class="fab fa-whatsapp"></i></i> WhapsApp</label>
+          <input type="text" id="phone" name="telefono" required>
+
+          <label for="email"><i class="fas fa-at"></i> Correo electronico</label>
+          <input type="text" id="email" name="correo" required>
+
+          <label for="mensaje"> Mensaje</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+
+          <input style="width: 100%;" type="submit" class="btnSend" value="Enviar Mensaje" id="btnSend">
+      </div>
+    </form>
+  </section>
+
+
 
   <!-----------------fOOTER----------------------->
   <?php require('../componentesPHP/footerDos.php')?>
+
+  <!-- Formulario -->
+  <script src="../js/formulario.js"></script>
 
   <!-- principal js -->
   <script src="https://kit.fontawesome.com/6c240dc0e0.js" crossorigin="anonymous"></script>
@@ -196,6 +228,17 @@
   <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js'></script>
   <script src="../js/cards.js"></script>
+
+  <!--AOS ANIMACION----->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+	<script>
+    	AOS.init({
+        	once: true,
+    	});
+	</script>
 
   <!--efecto de desplazamiento suave-->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

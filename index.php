@@ -324,7 +324,7 @@
 
         <section class="contacto-y-ubicacion">
 
-            <form action="./componentesPHP/envia.php" method="POST" class="form_contact"> 
+            <form action="./contactoPhp/envia.php" method="POST" class="form_contact"> 
                 <h4 class="title-general-text-dos">Contacto</h4>
 
                 <div class="user_info">
