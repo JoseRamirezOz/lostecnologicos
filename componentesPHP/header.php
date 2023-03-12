@@ -42,7 +42,7 @@
                                 <a id="texto-nav" class="nav-link" href="./addPages/componentes.php">• Infraestructura de red</a>
                             </li>   
                             <li class="nav-item">
-                                <a id="texto-nav" class="nav-link" href="./addPages/componentes.php">• Video / Fotografia</a>
+                                <a id="texto-nav" class="nav-link" href="./addPages/infra-red.php">• Video / Fotografia</a>
                             </li> 
                             <li class="nav-item">
                                 <a id="texto-nav" class="nav-link" href="./addPages/componentes.php">• Domotica</a>
