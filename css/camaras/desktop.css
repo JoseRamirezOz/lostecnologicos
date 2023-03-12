@@ -1,10 +1,10 @@
 /* PRIMER CONTENEDOR DE CAMARAS */
 .containerCamaras{
-    background-image: url(/images/camaras/banner-prinpicipal.jpeg);
-    background: -webkit-linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000),
-        url(/images/camaras/banner-prinpicipal.jpeg);
-    background: linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000),
-        url(/images/camaras/banner-prinpicipal.jpeg);
+    background-image: url(/images/camaras/banner-prinpicipal.jpg);
+    background: -webkit-linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000, #0000003e, #0000007f),
+        url(/images/camaras/banner-prinpicipal.jpg);
+    background: linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000, #0000003e, #0000007f),
+        url(/images/camaras/banner-prinpicipal.jpg);
 
     background-position: center;
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@
     justify-content: flex-end;
     align-items: center;
 
-    padding: 0px 15vw 3vw 15vw;
+    padding: 0px 19vw 3vw 19vw;
     
 }
 
