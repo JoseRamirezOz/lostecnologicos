@@ -23,24 +23,30 @@
                                 <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="#inicio">Inicio</a>
                             </li>                        
                             <li class="nav-item" data-bs-dismiss="offcanvas">
-                                <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="#reparacion" >Reparación de equipos</a>
+                                <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="#reparacion" >Asesoria Tecnica</a>
                             </li>
                             <li class="nav-item" data-bs-dismiss="offcanvas">
                                 <a id="texto-nav" class="nav-link scroll-link" href="#websites">Desarrollo Web</a>
                             </li>   
                             <li class="nav-item" data-bs-dismiss="offcanvas">
-                                <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="#tec-about">Soporte Tec y Nosotros</a>
+                                <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="#tec-about">Nosotros</a>
                             </li>       
-                            <li class="nav-item" data-bs-dismiss="offcanvas">
+                            <!-- <li class="nav-item" data-bs-dismiss="offcanvas">
                                 <a id="texto-nav" class="nav-link scroll-link" href="#contacto">Contacto</a>
-                            </li>      
+                            </li>       -->
                             <div class="linea-div" style="margin: 5px 0px 5px 0px; width: 100%;"></div>
                             <li class="nav-item" >
-                                <a id="texto-nav" class="nav-link" href="./addPages/camaras.php">• Camaras</a>
+                                <a id="texto-nav" class="nav-link" href="./addPages/camaras.php">• Video Vigilancía</a>
                             </li>   
                             <li class="nav-item">
-                                <a id="texto-nav" class="nav-link" href="./addPages/componentes.php">• Componentes pc</a>
+                                <a id="texto-nav" class="nav-link" href="./addPages/componentes.php">• Infraestructura de red</a>
                             </li>   
+                            <li class="nav-item">
+                                <a id="texto-nav" class="nav-link" href="./addPages/infra-red.php">• Video / Fotografia</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a id="texto-nav" class="nav-link" href="./addPages/componentes.php">• Domotica</a>
+                            </li> 
                         </ul>               
                     </div>
                 </div>
