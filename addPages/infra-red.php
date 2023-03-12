@@ -110,7 +110,7 @@
     </main>
 
     <!-----------------Poductos audio----------------------->
-    <h5 class="banner-titulo-general">Audio</h5>
+    <h5 class="banner-titulo-general">Cableado Estructurado</h5>
 
     <section class="contenedor-de-productos-general">
 
@@ -119,33 +119,33 @@
 
                 <section class="expand-content">
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/audio/heatset.png" alt="">
-                        <p class="nombre-producto">G PRO</p>
+                        <img class="img-producto" src="../images/redes/c1.png" alt="">
+                        <p class="nombre-producto">RJ45</p>
                     </div>
 
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/audio/heatset.png" alt="">
-                        <p class="nombre-producto">G PRO</p>
+                        <img class="img-producto" src="../images/redes/c2.png" alt="">
+                        <p class="nombre-producto">RJ45</p>
                     </div>
 
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/audio/heatset.png" alt="">
-                        <p class="nombre-producto">G PRO</p>
+                        <img class="img-producto" src="../images/redes/c3.png" alt="">
+                        <p class="nombre-producto">RJ45</p>
                     </div>
 
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/audio/heatset.png" alt="">
-                        <p class="nombre-producto">G PRO</p>
+                        <img class="img-producto" src="../images/redes/c4.png" alt="">
+                        <p class="nombre-producto">RJ45</p>
                     </div>
 
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/audio/heatset.png" alt="">
-                        <p class="nombre-producto">G PRO</p>
+                        <img class="img-producto" src="../images/redes/c1.png" alt="">
+                        <p class="nombre-producto">RJ45</p>
                     </div>
 
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/audio/heatset.png" alt="">
-                        <p class="nombre-producto">G PRO</p>
+                        <img class="img-producto" src="../images/redes/c2.png" alt="">
+                        <p class="nombre-producto">RJ45</p>
                     </div>
                 </section>
             </div>
@@ -153,13 +153,13 @@
         </div>
 
         <div class="contenedor-imagen-banner banner-pc-productos">
-            <img class="-imagen-banner" src="../images/componentes/audio/heatset.png" alt="">
+            <img class="-imagen-banner" id="imgPrincipalCableadoEstructurado" src="../images/redes/cableado-estructurado.jpg" alt="">
         </div>
     </section>
 
 
     <!-----------------Poductos Computación----------------------->
-    <h5 class="banner-titulo-general">Computación</h5>
+    <h5 class="banner-titulo-general">Dispositivos de Red</h5>
 
     <section class="contenedor-de-productos-general">
 
@@ -168,33 +168,33 @@
 
                 <section class="expand-content">
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/computacion/motherboard.png" alt="">
-                        <p class="nombre-producto">Z105 1700C</p>
+                        <img class="img-producto" src="../images/redes/s1.png" alt="">
+                        <p class="nombre-producto">d24-x3</p>
                     </div>
 
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/computacion/motherboard.png" alt="">
-                        <p class="nombre-producto">Z105 1700C</p>
+                        <img class="img-producto" src="../images/redes/s2.png" alt="">
+                        <p class="nombre-producto">d24-x3</p>
                     </div>
 
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/computacion/motherboard.png" alt="">
-                        <p class="nombre-producto">Z105 1700C</p>
+                        <img class="img-producto" src="../images/redes/s3.png" alt="">
+                        <p class="nombre-producto">d24-x3</p>
                     </div>
 
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/computacion/motherboard.png" alt="">
-                        <p class="nombre-producto">Z105 1700C</p>
+                        <img class="img-producto" src="../images/redes/s4.png" alt="">
+                        <p class="nombre-producto">d24-x3</p>
                     </div>
 
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/computacion/motherboard.png" alt="">
-                        <p class="nombre-producto">Z105 1700C</p>
+                        <img class="img-producto" src="../images/redes/s5.png" alt="">
+                        <p class="nombre-producto">d24-x3</p>
                     </div>
 
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/computacion/motherboard.png" alt="">
-                        <p class="nombre-producto">Z105 1700C</p>
+                        <img class="img-producto" src="../images/redes/s6.png" alt="">
+                        <p class="nombre-producto">d24-x3</p>
                     </div>
                 </section>
             </div>
@@ -202,14 +202,14 @@
         </div>
 
         <div class="contenedor-imagen-banner banner-pc-productos">
-            <img class="-imagen-banner" src="../images/componentes/computacion/pc.png" alt="">
+            <img id="imgDispositivosRed" class="-imagen-banner" src="../images/redes/s0.jpg" alt="">
         </div>
     </section>
 
 
 
     <!-----------------Poductos Casa y Oficina----------------------->
-    <h5 class="banner-titulo-general">Casa y Oficina</h5>
+    <h5 class="banner-titulo-general">Infraestructura de Servidor</h5>
 
     <section class="contenedor-de-productos-general">
 
@@ -218,32 +218,32 @@
 
                 <section class="expand-content">
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/CasayOficina/alexa.png" alt="">
+                        <img class="img-producto" src="../images/redes/d1.png" alt="">
                         <p class="nombre-producto">Alexa</p>
                     </div>
 
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/CasayOficina/alexa.png" alt="">
+                        <img class="img-producto" src="../images/redes/d2.png" alt="">
                         <p class="nombre-producto">Alexa</p>
                     </div>
 
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/CasayOficina/alexa.png" alt="">
+                        <img class="img-producto" src="../images/redes/d3.png" alt="">
                         <p class="nombre-producto">Alexa</p>
                     </div>
 
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/CasayOficina/alexa.png" alt="">
+                        <img class="img-producto" src="../images/redes/d4.png" alt="">
                         <p class="nombre-producto">Alexa</p>
                     </div>
 
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/CasayOficina/alexa.png" alt="">
+                        <img class="img-producto" src="../images/redes/d5.png" alt="">
                         <p class="nombre-producto">Alexa</p>
                     </div>
 
                     <div class="producto-div">
-                        <img class="img-producto" src="../images/componentes/CasayOficina/alexa.png" alt="">
+                        <img class="img-producto" src="../images/redes/d6.png" alt="">
                         <p class="nombre-producto">Alexa</p>
                     </div>
                 </section>
@@ -252,13 +252,13 @@
         </div>
 
         <div class="contenedor-imagen-banner banner-pc-productos">
-            <img class="-imagen-banner" src="../images/componentes/CasayOficina/chrom.png" alt="">
+            <img id="imagePrincipalInfraRed" class="-imagen-banner" src="../images/redes/d0.jpg" alt="">
         </div>
     </section>
 
 
     <!-----------------Cableado----------------------->
-    <h5 class="banner-titulo-general">Cableado</h5>
+    <h5 class="banner-titulo-general">Sistemas de refrigeración</h5>
 
     <div class="container text-center my-3">
         <div class="row mx-auto my-auto justify-content-center">
@@ -267,35 +267,35 @@
                     <div class="carousel-item active">
                         <div class="col-md-3">
                             <div class="card-img">
-                                <img src="../images/componentes/cables/cables-1.png" class="img-fluid">
+                                <img src="../images/redes/r1.png" class="img-fluid">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-md-3">
                             <div class="card-img">
-                                <img src="../images/componentes/cables/cables-2.png" class="img-fluid">
+                                <img src="../images/redes/r2.png" class="img-fluid">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-md-3">
                             <div class="card-img">
-                                <img src="../images/componentes/cables/cables-3.png" class="img-fluid">
+                                <img src="../images/redes/r3.png" class="img-fluid">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-md-3">
                             <div class="card-img">
-                                <img src="../images/componentes/cables/cables-4.png" class="img-fluid">
+                                <img src="../images/redes/r4.png" class="img-fluid">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-md-3">
                             <div class="card-img">
-                                <img src="../images/componentes/cables/cables-5.png" class="img-fluid">
+                                <img src="../images/redes/r5.png" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -315,11 +315,8 @@
     <!-----------------Banner final----------------------->
     <section class="contenedor-de-banner-final">
         <div class="div-contenedor-textos">
-            <h1 class="title-general-text-banner-final">Componentes de PC</h1>
-            <p class="p-general-text-banner-final">"En Los Tecnologicos encontrarás los componentes de PC de alta
-                calidad que necesitas para construir o mejorar tu sistema. Con nuestra amplia selección, precios
-                competitivos y garantía de satisfacción, estamos seguros de que encontrarás lo que buscas. ¡Visítanos
-                ahora y aprovecha nuestras ofertas especiales en procesadores, tarjetas gráficas y más!"</p>
+            <h1 class="title-general-text-banner-final"></h1>
+            <p class="p-general-text-banner-final">"Optimiza la velocidad y el rendimiento de tu red con nuestra amplia selección de servicios de sistemas de red. Desde la configuración de redes locales hasta la implementación de soluciones de seguridad, tenemos lo que necesitas"</p>
         </div>
     </section>
 
@@ -327,12 +324,12 @@
     <section class="section-contenedor-about-me-y-tec row-col-desk">
         <div class="contenedor-general-div-section-6 fondo-section-6-osc">
             <h4 class="title-general-text">Potencia sin Límites</h4>
-            <p class="p-general-text-dos otros-dispositivos-general-div-con-imagen">"Descubre la potencia que estás buscando en tus componentes de PC con Los Tecnologicos. Con precios asequibles y una garantía de calidad, podrás dar vida a tus juegos y proyectos con confianza."</p>
+            <p class="p-general-text-dos otros-dispositivos-general-div-con-imagen">Maximiza la eficiencia y productividad de tu negocio con nuestras soluciones de sistemas de red personalizadas.</p>
         </div>
 
         <div class="contenedor-general-div-section-6 fondo-section-6-cla">
-            <h4 class="title-general-text-oscuro">Maximiza Tu PC</h4>
-            <p class="p-general-text-oscuro otros-dispositivos-general-div-con-imagen">"No te conformes con menos, elige los componentes de PC de Los Tecnologicos. Con nuestro servicio al cliente excepcional y una amplia variedad de opciones, encontrarás lo que necesitas para un rendimiento óptimo."
+            <h4 class="title-general-text-oscuro">Maximiza tu negocio</h4>
+            <p class="p-general-text-oscuro otros-dispositivos-general-div-con-imagen">Obtén soporte técnico en tiempo real y análisis detallados del rendimiento de tu red para identificar cuellos de botella y optimizar su velocidad y eficiencia.
             </p>
         </div>
     </section>
@@ -340,13 +337,13 @@
 
     <section class="section-contenedor-about-me-y-tec">
         <div class="contenedor-general-div-section-6 fondo-section-6-osc">
-            <h4 class="title-general-text">PC de Alta Velocidad</h4>
-            <p class="p-general-text-dos otros-dispositivos-general-div-con-imagen">Transforma tu PC con los componentes de Los Tecnologicos. Conoce nuestra amplia selección de procesadores, tarjetas gráficas y otros componentes de última generación, ¡y haz de tu PC una máquina de alta velocidad!</p>
+            <h4 class="title-general-text">Haz realidad tu idea</h4>
+            <p class="p-general-text-dos otros-dispositivos-general-div-con-imagen">Ofrecemos una amplia selección de servicios de sistemas de red, desde la configuración de redes locales hasta la implementación de soluciones de seguridad.</p>
         </div>
 
         <div class="contenedor-general-div-section-6 fondo-section-6-cla">
             <h4 class="title-general-text-oscuro">Venta al mayoreo</h4>
-            <p class="p-general-text-oscuro otros-dispositivos-general-div-con-imagen">"Ofrecemos una amplia variedad de productos tecnológicos de alta calidad a precios de mayoreo. Desde cables hasta componentes de computadoras, nuestros productos garantizan un rendimiento óptimo y una durabilidad duradera. ¡Haz tu pedido hoy y haz crecer tu negocio con nosotros!"
+            <p class="p-general-text-oscuro otros-dispositivos-general-div-con-imagen">Ofrecemos una amplia variedad de productos tecnológicos de alta calidad a precios de mayoreo. Desde cables hasta componentes de computadoras, nuestros productos garantizan un rendimiento óptimo y una durabilidad duradera. ¡Haz tu pedido hoy y haz crecer tu negocio con nosotros!
             </p>
         </div>
     </section>

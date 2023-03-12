@@ -1,4 +1,3 @@
-
 <header>
         <nav id="navBar" class="navbar navbar-dark fixed-top">
             <div class="container-fluid">
@@ -24,13 +23,16 @@
                                 <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="/">Inicio</a>
                             </li>                                                  
                             <li class="nav-item" >
-                                <a id="texto-nav" class="nav-link" href="/addPages/camaras.php">Camaras</a>
+                                <a id="texto-nav" class="nav-link" href="/addPages/camaras.php">Video Vigilancía</a>
                             </li>   
                             <li class="nav-item">
                                 <a id="texto-nav" class="nav-link" href="/addPages/infra-red.php">Infraestructura de red</a>
                             </li>   
                             <li class="nav-item">
                                 <a id="texto-nav" class="nav-link" href="/addPages/audiovisual.php">Video y Fotografia</a>
+                            </li>  
+                            <li class="nav-item">
+                                <a id="texto-nav" class="nav-link" href="/addPages/domotica.php">Domotica</a>
                             </li>  
                         </ul>               
                     </div>

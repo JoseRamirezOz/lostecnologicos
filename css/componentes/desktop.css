@@ -215,11 +215,11 @@
 
 /*===============banner pc=====================*/
 .contenedor-de-banner-final{
-    background-image: url(../../images/componentes/banner.jpeg);
+    background-image: url(../../images/redes/dataCenter.jpg);
     background: -webkit-linear-gradient(to bottom, #030b138a, #030b138a, #030b13d5, #030b13),
-        url(../../images/componentes/banner.jpeg);
+        url(../../images/redes/dataCenter.jpg);
     background: linear-gradient(to bottom, #030B138a, #030b138a, #030b13D5, #030b13),
-        url(../../images/componentes/banner.jpeg);
+        url(../../images/redes/dataCenter.jpg);
 
     background-position: center;
     background-repeat: no-repeat;
@@ -250,6 +250,7 @@
     color: var(--background-color);
     font-size: var(--fonts-size-Texto-dos);
     text-align: center;
+    font-size:2.5rem;
 }
 
 
@@ -318,4 +319,24 @@
     font-size: var(--fonts-size-Texto-dos);
     text-align: center;
     padding: 7px;
+}
+
+
+/**
+    * AJUSTES CSS SECCION CABLEADO ESTRUCTURADO
+*/
+
+#imgPrincipalCableadoEstructurado{
+    height:50rem;
+    object-fit:cover;
+}
+
+#imgDispositivosRed{
+    height:50rem;
+    object-fit:cover;
+}
+
+#imagePrincipalInfraRed{
+    height:50rem;
+    object-fit:cover;
 }

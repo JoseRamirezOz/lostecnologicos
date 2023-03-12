@@ -39,13 +39,13 @@
                                 <a id="texto-nav" class="nav-link" href="./addPages/camaras.php">• Video Vigilancía</a>
                             </li>   
                             <li class="nav-item">
-                                <a id="texto-nav" class="nav-link" href="./addPages/componentes.php">• Infraestructura de red</a>
+                                <a id="texto-nav" class="nav-link" href="./addPages/infra-red.php">• Infraestructura de red</a>
                             </li>   
                             <li class="nav-item">
-                                <a id="texto-nav" class="nav-link" href="./addPages/infra-red.php">• Video / Fotografia</a>
+                                <a id="texto-nav" class="nav-link" href="./addPages/audiovisual.php">• Video / Fotografia</a>
                             </li> 
                             <li class="nav-item">
-                                <a id="texto-nav" class="nav-link" href="./addPages/componentes.php">• Domotica</a>
+                                <a id="texto-nav" class="nav-link" href="./addPages/domotica.php">• Domotica</a>
                             </li> 
                         </ul>               
                     </div>
