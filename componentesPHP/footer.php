@@ -2,12 +2,10 @@
     <footer>
         <div class="contenedor-links">
             <a class="link-texto scroll-link" href="/index">• Inicio</a>
-            <a class="link-texto scroll-link" href="#reparacion">• Reparación de equipos</a>
-            <a class="link-texto scroll-link" href="#websites">• Desarrollo Web</a>
-            <a class="link-texto scroll-link" href="#tec-about">• Soporte Tec. Empresarial</a>
-            <a class="link-texto scroll-link" href="#contacto">• Contacto</a>
-            <a class="link-texto" href="./addPages/camaras.php">• Camaras</a>
-            <a class="link-texto" href="./addPages/componentes.php">• Componentes pc</a>         
+            <a class="link-texto scroll-link" href="./addPages/camaras.php">• Video Vigilancía</a>
+            <a class="link-texto scroll-link" href="./addPages/infra-red.php">• Infraestructura de red</a>
+            <a class="link-texto scroll-link" href="./addPages/audiovisual.php">• Video y Fotografia</a>
+            <a class="link-texto scroll-link" href="./addPages/domotica.php">• Domotica</a>     
         </div>
 
         <div class="contenedor-logotipos">
