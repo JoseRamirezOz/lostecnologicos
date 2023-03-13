@@ -80,8 +80,8 @@
         <!-----------------Banner principal----------------------->
         <section class="section-contenedor-banner-principal">
             <div>
-                <h1 class="title-general-text">Los Tecnologicos</h1>
-                <p class="p-general-text">Los Tecnológicos es una empresa que ofrece soluciones de tecnología a través de la distribución de equipos de cómputo, cámaras y componentes para computadoras, así como soporte técnico empresarial. Su enfoque en la atención al cliente y su equipo de expertos en tecnología les permite adaptarse a las necesidades de cada cliente y ser un socio tecnológico confiable para impulsar el éxito empresarial en un mundo digital.</p>
+                <h1 class="title-general-text">Nodos Tecnología</h1>
+                <p class="p-general-text">Nodos Tecnología es una empresa especializada en soluciones tecnológicas que se dedica a la distribución de equipos de cómputo, cámaras y componentes para computadoras, además de brindar soporte técnico empresarial. Su enfoque principal es brindar atención personalizada al cliente y cuenta con un equipo de expertos en tecnología altamente capacitados, lo que les permite adaptarse a las necesidades específicas de cada cliente. Nodos Tecnología es un socio tecnológico confiable que impulsa el éxito empresarial en un mundo digital en constante evolución.</p>
             </div>
         </section>
 
