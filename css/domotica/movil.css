@@ -1,0 +1,103 @@
+/***
+    *  SECCION DE CONTROL DE ILUMINACION
+*/
+
+img{
+    width:30rem;
+    height:30rem;
+}
+
+#seccionIlumincacion #cardControlIlumincacion{
+    background:#581845;
+    color:#fff;
+    height:50vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:3rem;
+}
+
+#seccionIlumincacion #cardControlIlumincacion h2{
+    margin-bottom:2rem;
+    font-family:var(--fonts-Titulo-uno);
+    font-size:2.5rem;
+}
+
+#seccionIlumincacion #cardControlIlumincacion p{
+    font-family:var(--fonts-Texto-uno);
+    text-align:center;
+    font-size:1.3rem;
+}
+
+#seccionIlumincacion .imgIluminacion{
+    width:100vw;
+}
+
+
+#seccionIlumincacion .imgIluminacion img{
+    width:100%;
+}
+
+
+/***
+    *  SECCION DE CONTROL DE CLIMA
+*/
+
+#seccionControlClima{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column-reverse;
+}
+
+#seccionControlClima article{
+    padding:2rem;
+    text-align:center;
+}
+
+#seccionControlClima article h2{
+    font-size:2rem;
+    font-family:var(--fonts-Titulo-uno);
+}
+
+#seccionControlClima article p{
+    font-size:1.3rem;
+    font-family:var(--fonts-Texto-uno);
+}
+
+#seccionControlClima picture img{
+    object-fit:cover;
+    border-radius:1rem;
+    width:95vw;
+}
+
+
+/***
+    *  SECCION DE CONTROL DE CARDS
+*/
+
+
+#cardsSeccionServicios{
+    margin-top:5rem;
+}
+
+#cardsSeccionServicios .card{
+    width:90% !important;
+    margin:0 auto;
+    margin-bottom:3rem;
+}
+
+#cardsSeccionServicios img{
+    object-fit:cover;
+    border-radius:1rem;
+}
+
+#cardsSeccionServicios p{
+    font-family:var(--fonts-Texto-uno);
+    font-size:1.3rem;
+    text-align:center;
+}
+
+
