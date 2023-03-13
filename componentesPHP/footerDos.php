@@ -22,8 +22,10 @@
     <footer>
         <div class="contenedor-links">
             <a class="link-texto" href="/index">• Inicio</a>
-            <a class="link-texto" href="./addPages/camaras.php">• Camaras</a>
-            <a class="link-texto" href="./addPages/componentes.php">• Componentes pc</a>   
+            <a class="link-texto" href="./addPages/camaras.php">• Video Vigilancía</a>
+            <a class="link-texto" href="./addPages/infra-red.php">• Infraestructura de red</a>   
+            <a class="link-texto" href="./addPages/audiovisual.php">• Video y Fotografia</a>   
+            <a class="link-texto" href="./addPages/domotica.php">• Domotica</a>   
         </div>
 
         <div class="contenedor-logotipos">

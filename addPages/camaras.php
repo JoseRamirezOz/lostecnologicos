@@ -129,7 +129,7 @@
     <h2 class="gustadosTitle">Mas Gustados</h2>
     <div class="masGustadosSubContainer">
       <article class="gustadosFavoritos gustadosFavoritosOne">
-        <img class="gustadosImg" src="/images/camaras/slider/camara-4.png" alt="">
+        <img class="gustadosImg" src="/images/camaras/slider/camara-1.png" alt="">
         <p class="gustadosSubtitle">TP LINK C200</p>
       </article>
 
@@ -139,12 +139,12 @@
       </article>
 
       <article class="gustadosFavoritos">
-        <img class="gustadosImg" src="/images/camaras/slider/camara-4.png" alt="">
+        <img class="gustadosImg" src="/images/camaras/slider/camara-2.png" alt="">
         <p class="gustadosSubtitle">TP LINK C200</p>
       </article>
 
       <article class="gustadosFavoritos">
-        <img class="gustadosImg" src="/images/camaras/slider/camara-4.png" alt="">
+        <img class="gustadosImg" src="/images/camaras/slider/camara-5.png" alt="">
         <p class="gustadosSubtitle">TP LINK C200</p>
       </article>
     </div>
@@ -161,17 +161,17 @@
       </article>
 
       <article class="ofertasFavoritos">
-        <img class="ofertasImg" src="/images/camaras/slider/camara-3.png" alt="">
+        <img class="ofertasImg" src="/images/camaras/slider/camara-6.png" alt="">
         <p class="ofertasSubtitle">TP LINK C200</p>
       </article>
 
       <article class="ofertasFavoritos">
-        <img class="ofertasImg" src="/images/camaras/slider/camara-3.png" alt="">
+        <img class="ofertasImg" src="/images/camaras/slider/camara-4.png" alt="">
         <p class="ofertasSubtitle">TP LINK C200</p>
       </article>
 
       <article class="ofertasFavoritos">
-        <img class="ofertasImg" src="/images/camaras/slider/camara-3.png" alt="">
+        <img class="ofertasImg" src="/images/camaras/slider/camara-8.png" alt="">
         <p class="ofertasSubtitle">TP LINK C200</p>
       </article>
     </div>

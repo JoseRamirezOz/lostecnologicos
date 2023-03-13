@@ -1,0 +1,182 @@
+*{
+    box-sizing:border-box;
+    overflow-x:hidden;
+}
+
+#sliderPrincipalDomotica{
+    width:100vw !important;
+    height:80vh !important;
+}
+
+#sliderPrincipalDomotica img{
+    width:100%  !important;
+    height:80vh !important;
+    object-fit:cover;
+}
+
+#sliderPrincipalDomotica h5{
+    font-size:3rem;
+    font-family:var(--fonts-Titulo-uno);
+}
+
+#textoSliderPrincipal{
+    font-size:2rem;
+    font-family:var(--fonts-Texto-uno);
+}
+
+#containerTextoSliderPrincipal{
+    background-color:rgba(0, 0, 0, .5);
+}
+
+/**
+    * SECCION DE CONTROL DE ILUMINCACION
+*/
+
+#seccionIlumincacion{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding-left:5rem;
+    padding-right:5rem;
+}
+
+#seccionIlumincacion #cardControlIlumincacion{
+    width:50%;
+    display:flex;
+    background:#581845;
+    color:#fff;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:3rem;
+    margin:2rem;
+}
+
+#seccionIlumincacion #cardControlIlumincacion h2{
+    margin-bottom:2rem;
+    font-size:3rem;
+    overflow-y: hidden;
+    font-family:var(--fonts-Titulo-uno);
+}
+
+#seccionIlumincacion #cardControlIlumincacion p{
+    text-align:center;
+    font-size:2rem;
+    font-family:var(--fonts-Texto-uno);
+}
+
+#seccionIlumincacion .imgIluminacion{
+    width:50%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+#seccionIlumincacion .imgIluminacion img{
+    width:50rem;
+    height:50rem;
+    object-fit:contain;
+}
+
+
+/**
+    * SECCION DE CONTROL DE CLIMA
+*/
+
+#seccionControlClima{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding:5rem;
+}
+
+#seccionControlClima picture{
+    width:50%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+#seccionControlClima img{
+    width:60rem;
+    height:50rem;
+    object-fit:contain;
+}
+
+#seccionControlClima article{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:3rem;
+}
+
+#seccionControlClima h2{
+    font-size:3rem;
+    margin-bottom:2rem;
+    overflow-y:hidden;
+    font-family:var(--fonts-Titulo-uno);
+}
+
+#seccionControlClima p{
+    text-align:center;
+    font-size:1.6rem;
+    font-family:var(--fonts-Texto-uno);
+}
+
+
+/**
+    * SECCION DE CONTROL DE DOMOTICA
+*/
+
+
+#cardsSeccionServicios{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+#cardsSeccionServicios .card{
+    margin-right:2rem;
+    width:38rem !important;
+    height:45rem;
+    overflow-y:hidden;
+}
+
+#cardsSeccionServicios .card img{
+    width:100%;
+    object-fit:cover;
+}
+
+#cardsSeccionServicios .card .card-text{
+    font-size:1.6rem;
+    text-align: justify;
+    line-height:2.4rem;
+    font-family:var(--fonts-Texto-uno);
+}
+
+
+#seccionSliderFinal{
+    width:90%;
+    height:30% !important;
+    margin:0 auto;
+    margin-top:5rem;
+    margin-bottom:5rem;
+}
+
+
+#seccionSliderFinal #carouselExample{
+    height:30% !important;
+}
+
+#seccionSliderFinal #carouselExample img{
+    height:50rem;
+    object-fit:cover;
+}

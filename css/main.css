@@ -21,6 +21,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 @font-face {
+    font-family: "Titulo-tres";
+    src: url("/fonts/LEMONMILK-Regular.otf");
+}
+
+@font-face {
+    font-family: "Titulo-cuatro";
+    src: url("/fonts/LEMONMILK-Light.otf");
+}
+
+
+@font-face {
     font-family: "Texto-uno";
     src: url("/fonts/Poppins-Regular.ttf");
 }
@@ -149,13 +160,17 @@ a:hover {
 header {
     background-color: var(--primer-color);
     z-index: 9999999;
-    
 }
 
+#navBar.transparent-bg {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
 #navBar {
-    background-color: var(--primer-color);
+ 
     padding: 15px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+ 
     z-index: 9999999;
     position: fixed;
 
@@ -175,6 +190,8 @@ header {
     border-color: var(--background-color);
     font-size: var(--fonts-size-title-dos);
     cursor: pointer;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
 }
 
 .navbar-toggler .navbar-toggler-icon {

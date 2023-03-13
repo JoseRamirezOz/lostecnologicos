@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Metadatos SEO -->
-    <title>Los Tecnologicos</title>
+    <title>Nodos Tecnología</title>
     <meta name="description"
         content="Transformando la tecnología en soluciones eficientes. Bienvenidos a Los Tecnologicos, su distribuidor confiable de equipo de cómputo y cámaras">
     <meta name="keywords"
@@ -69,16 +69,10 @@
     </video>
     <section class="video-overlay">
         <p class="titulo-de-video">
-            LOS TECNOLOGICOS
+            NODOS TECNOLOGÍA
         </p>
         <i class="fa-solid fa-square-caret-down"></i>
     </section>
-
-
-
-
-
-
 
             
     <section style="background-color: #ffffff;">
@@ -330,7 +324,7 @@
 
         <section class="contacto-y-ubicacion">
 
-            <form action="./componentesPHP/envia.php" method="POST" class="form_contact"> 
+            <form action="./contactoPhp/envia.php" method="POST" class="form_contact"> 
                 <h4 class="title-general-text-dos">Contacto</h4>
 
                 <div class="user_info">

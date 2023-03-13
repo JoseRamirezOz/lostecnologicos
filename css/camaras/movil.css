@@ -1,10 +1,10 @@
 /* PRIMER CONTENEDOR DE CAMARAS */
 .containerCamaras{
-    background-image: url(/images/camaras/banner-prinpicipal.jpeg);
+    background-image: url(/images/camaras/banner-prinpicipal.jpg);
     background: -webkit-linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000),
-        url(/images/camaras/banner-prinpicipal.jpeg);
+        url(/images/camaras/banner-prinpicipal.jpg);
     background: linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000),
-        url(/images/camaras/banner-prinpicipal.jpeg);
+        url(/images/camaras/banner-prinpicipal.jpg);
 
     background-position: center;
     background-repeat: no-repeat;
