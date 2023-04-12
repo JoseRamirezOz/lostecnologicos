@@ -1,0 +1,35 @@
+{
+  "name": "Nodos Tecnología® - Sitio oficial Nodos Tecnología®",
+  "short_name": "Nodos Tecnología®",
+  "icons": [
+    {
+      "src": "https://nodostecnologia.com/images/LOGOS/logoUrl32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "https://nodostecnologia.com/images/LOGOS/logoUrl16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "https://nodostecnologia.com/images/LOGOS/logoUrl128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "https://nodostecnologia.com/images/LOGOS/logoUrl192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.softpauer.f1timingapp2014.basic"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone"
+}

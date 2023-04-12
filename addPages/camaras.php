@@ -1,55 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="robots" content="index,follow">
 
-  <!-- Metadatos SEO -->
-  <title>Los Tecnologicos</title>
-  <meta name="description" content="Descripción de la página">
-  <meta name="keywords" content="palabras clave, separadas, por, comas">
-  <meta name="robots" content="index,follow">
-  <meta name="googlebot" content="index,follow">
+    <title>Video vigilancia - Nodos Tecnología</title>
+    <meta name="description" content="En Nodos Tecnología ofrecemos soluciones avanzadas de video vigilancia para ayudarte a proteger tu hogar o negocio. Contamos con una amplia variedad de cámaras de alta calidad, software de gestión de video y sistemas de seguridad integrados para satisfacer tus necesidades específicas. Nuestro equipo de expertos en seguridad te brinda la asistencia necesaria para garantizar una instalación adecuada y un soporte técnico confiable.">
+    <link rel="canonical" href="https://nodostecnologia.com/addPages/camaras.php" />
+    <link rel="home" href="https://nodostecnologia.com" />
 
-  <!-- Cache -->
-  <meta http-equiv='cache-control' content='no-cache'>
-  <meta http-equiv='expires' content='0'>
-  <meta http-equiv='pragma' content='no-cache'>
-  <meta http-equiv="Expires" content="0">
-  <meta http-equiv="Last-Modified" content="0">
-  <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
-  <meta http-equiv="Pragma" content="no-cache">
+    <meta property="og:title" content="Video vigilancia - Nodos Tecnología" />
+    <meta property="og:description" content="En Nodos Tecnología ofrecemos soluciones avanzadas de video vigilancia para ayudarte a proteger tu hogar o negocio. Contamos con una amplia variedad de cámaras de alta calidad, software de gestión de video y sistemas de seguridad integrados para satisfacer tus necesidades específicas. Nuestro equipo de expertos en seguridad te brinda la asistencia necesaria para garantizar una instalación adecuada y un soporte técnico confiable." />
 
-  <!-- Metadatos para redes sociales -->
-  <meta property="og:title" content="Título de la página">
-  <meta property="og:description" content="Descripción de la página">
-  <meta property="og:image" content="URL de la imagen destacada">
-  <meta property="og:url" content="URL de la página">
-  <meta property="og:type" content="website">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nodostecnologia.com/addPages/camaras.php" />
 
-  <!-- Metadatos para redes sociales TWITER -->
-  <meta property="twitter:site_name" content="" />
-  <meta property="twitter:title" content="" />
-  <meta property="twitter:description" content="" />
-  <meta property="twitter:image" content="" />
+    <meta property="og:image" content="https://nodostecnologia.com/images/LOGOS/logoUrl500x500.jpg" />
+    <meta property="og:site_name" content="Nodos Tecnología® - Sitio oficial Nodos Tecnología®" />
 
-  <!-- Otros metadatos -->
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@nodostecnologia" />
+    <meta name="twitter:creator" content="@nodostecnologia" />
+    <meta name="twitter:title" content="Video vigilancia - Nodos Tecnología" />
+    <meta name="twitter:description" content="En Nodos Tecnología ofrecemos soluciones avanzadas de video vigilancia para ayudarte a proteger tu hogar o negocio. Contamos con una amplia variedad de cámaras de alta calidad, software de gestión de video y sistemas de seguridad integrados para satisfacer tus necesidades específicas. Nuestro equipo de expertos en seguridad te brinda la asistencia necesaria para garantizar una instalación adecuada y un soporte técnico confiable." />
+    <meta name="twitter:image" content="https://nodostecnologia.com/images/LOGOS/logoUrl500x500.jpg" />
 
-  <!-- ESTILOS EN CSS -->
-  <link rel="stylesheet" href="../css/main.css">
-  <link rel="stylesheet" media="(min-width:320px)" href="../css/camaras/movil.css" />
-  <link rel="stylesheet" media="(min-width:768px)" href="../css/camaras/tablet.css" />
-  <link rel="stylesheet" media="(min-width:1024px)" href="../css/camaras/desktop.css" />
+    <link rel="alternate" hreflang="es" href="https://nodostecnologia.com/addPages/camaras.php">
 
-  <!-- CONEXION CON BOOTSTRAP v5.3 -->
-  <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <meta http-equiv="Cache-Control" content="max-age=2296000, must-revalidate">
 
-  <!-- SLIDER GENERAL -->
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css'>
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Nodos Tecnología",
+        "url": "https://nodostecnologia.com/addPages/camaras.php",
+        "logo": "https://nodostecnologia.com/images/LOGOS/logoUrl.png",
+        "industry": "Technology",
+        "sameAs": [
+        "https://www.facebook.com/nodostecnologia",
+        "https://twitter.com/nodostecnologia",
+        "https://www.linkedin.com/company/nodostecnologia/"
+        ]
+    }
+    </script>
+
+    <link rel="icon" type="image/vnd.microsoft.icon" href="https://nodostecnologia.com/images/LOGOS/logoUrl.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://nodostecnologia.com/images/LOGOS/logoUrl.ico"/>
+	  <link rel="icon" sizes="192x192" href="https://nodostecnologia.com/images/LOGOS/logoUrl192x192.png"/>
+	  <link rel="icon" sizes="128x128" href="https://nodostecnologia.com/images/LOGOS/logoUrl128x128.png"/>
+	  <link rel="apple-touch-icon" href="https://nodostecnologia.com/images/LOGOS/logoUrl.ico"/>
+    <link rel="icon" sizes="32x32" href="https://nodostecnologia.com/images/LOGOS/logoUrl32x32.png"/>
+    <link rel="icon" sizes="16x16" href="https://nodostecnologia.com/images/LOGOS/logoUrl16x16.png"/>
+
+    <link rel="manifest" href="https://nodostecnologia.com/images/LOGOS/manifest.json"/>
+
+    <!-- ESTILOS EN CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" media="(min-width:320px)" href="../css/camaras/movil.css" />
+    <link rel="stylesheet" media="(min-width:768px)" href="../css/camaras/tablet.css" />
+    <link rel="stylesheet" media="(min-width:1024px)" href="../css/camaras/desktop.css" />
+
+    <!-- CONEXION CON BOOTSTRAP v5.3 -->
+    <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+
+    <!-- SLIDER GENERAL -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css'>
 </head>
 
 
@@ -58,18 +79,16 @@
   <?php require('../componentesPHP/headerDos.php')?>
 
   <section class="containerCamaras">
-    <p class="containerCamarasText">
+    <span class="containerCamarasText">
       Ofrecemos cámaras de alta calidad y servicio de instalación profesional para un sistema de seguridad óptimo, con soluciones personalizadas para hogar o negocio.
-    </p>
+    </span>
   </section>
 
   <!-- SERVICIOS DE INSTALACION -->
   <section class="containerCamsVigilancia">
     <div class="camsVigilanciaSubContainer">
-      <h1 class="titleCamarasVig">Camaras de Vigilancía</h1>
-      <p class="parrafoCamarasVigilancia">Nuestro objetivo en Zitrix es brindarle a nuestros clientes la tranquilidad y
-        seguridad que merecen, tanto en el hogar como en el trabajo. Por eso, ofrecemos productos de alta calidad y un
-        servicio de instalación profesional para asegurarnos de que </p>
+      <h1 class="titleCamarasVig">Video vigilancia - Nodos Tecnología</h1>
+      <p class="parrafoCamarasVigilancia">En Nodos Tecnología ofrecemos soluciones avanzadas de video vigilancia para ayudarte a proteger tu hogar o negocio. Contamos con una amplia variedad de cámaras de alta calidad, software de gestión de video y sistemas de seguridad integrados para satisfacer tus necesidades específicas. Nuestro equipo de expertos en seguridad te brinda la asistencia necesaria para garantizar una instalación adecuada y un soporte técnico confiable.</p>
     </div>
 
     <div class="servInstalacionContainerImgs">
@@ -82,7 +101,7 @@
     <div class="detailsEspecificacionesSubContainer">
       <h2 class="titleCamarasVig">Detalles sobre la calidad y especificaciones técnicas de las cámaras.
       </h2>
-      <p class="parrafoDetailsEspecificaciones">Nuestras cámaras de seguridad Zitrix ofrecen alta calidad y tecnología
+      <p class="parrafoDetailsEspecificaciones">Nuestras cámaras de seguridad Nodos Tecnología ofrecen alta calidad y tecnología
         avanzada para garantizar la seguridad de su hogar o negocio. Con características como resolución HD, visión
         nocturna y detección de movimiento, puede</p>
     </div>
@@ -97,7 +116,7 @@
   <section class="servInstalacionContainer">
     <div class="servInstalacionSubContainer">
       <h2 class="titleCamarasVig">Servicio de instalacion</h2>
-      <p class="servInstalacionParrafo">El servicio de instalación de cámaras de seguridad con Zitrix ofrece una
+      <p class="servInstalacionParrafo">El servicio de instalación de cámaras de seguridad con Nodos Tecnología ofrece una
         solución completa y efectiva para proteger tu hogar o negocio. Con nuestra tecnología de vanguardia y nuestro
         equipo de expertos en instalación, puedes estar seguro de tener un sistema de seguridad confiable y fácil de
         usar.</p>
@@ -112,11 +131,11 @@
   <!-- PRODUCTOS EN VENTA -->
   <section class="productsVentaContainer">
     <h2 class="productsVentaTitle">Productos en venta</h2>
-    <p class="productsVentaText">Con Zitrix, obtienes más que solo una cámara de seguridad. Obtienes tranquilidad y
+    <p class="productsVentaText">Con Nodos Tecnología, obtienes más que solo una cámara de seguridad. Obtienes tranquilidad y
       seguridad para ti y tu hogar. Nuestras cámaras de vigilancia de última generación brindan una claridad y
       resolución superior, lo que significa que puedes ver y monitorear cualquier actividad sospechosa desde la
       comodidad de tu hogar o dispositivo móvil. Además, con nuestro servicio de instalación profesional y amigable,
-      puedes estar seguro de que tu sistema de seguridad está funcionando de manera efectiva. ¡Zitrix te brinda la
+      puedes estar seguro de que tu sistema de seguridad está funcionando de manera efectiva. ¡Nodos Tecnología te brinda la
       seguridad que necesitas para vivir sin preocupaciones!</p>
   </section>
 

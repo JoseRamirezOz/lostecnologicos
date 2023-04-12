@@ -1,46 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- Metadatos SEO -->
-    <title>Nodos Tecnología</title>
-    <meta name="description"
-        content="Transformando la tecnología en soluciones eficientes. Bienvenidos a Los Tecnologicos, su distribuidor confiable de equipo de cómputo y cámaras">
-    <meta name="keywords"
-        content="Los Tecnologicos, Venta de productos al mayoreo, Camaras de seguridad, Componentes par computadora, Desarrollo web a medida">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="max-image-preview:large" />
     <meta name="robots" content="index,follow">
-    <meta name="googlebot" content="index,follow">
 
-    <!-- Cache -->
-    <meta http-equiv='cache-control' content='no-cache'>
-    <meta http-equiv='expires' content='0'>
-    <meta http-equiv='pragma' content='no-cache'>
-    <meta http-equiv="Expires" content="0">
-    <meta http-equiv="Last-Modified" content="0">
-    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
-    <meta http-equiv="Pragma" content="no-cache">
+    <title>Nodos Tecnología | Expertos en cámaras de seguridad, domótica y audiovisual</title>
+    <meta name="description" content="Nodos Tecnología es una empresa especializada en soluciones tecnológicas que se dedica a la distribución de equipos de cómputo, cámaras y componentes para computadoras, además de brindar soporte técnico empresarial. Su enfoque principal es brindar atención personalizada al cliente y cuenta con un equipo de expertos en tecnología altamente capacitados, lo que les permite adaptarse a las necesidades específicas de cada cliente. Nodos Tecnología es un socio tecnológico confiable que impulsa el éxito empresarial en un mundo digital en constante evolución.">
+    <link rel="canonical" href="https://nodostecnologia.com" />
+    <link rel="home" href="https://nodostecnologia.com" />
 
-    <!-- Metadatos para redes sociales -->
-    <meta property="og:title" content="Los Tecnologicos">
-    <meta property="og:description"
-        content="Transformando la tecnología en soluciones eficientes. Bienvenidos a Los Tecnologicos, su distribuidor confiable de equipo de cómputo y cámaras">
-    <meta property="og:image" content="./images/componentes/banner.jpeg">
-    <meta property="og:url" content="URL de la página">
-    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nodos Tecnología | Expertos en cámaras de seguridad, domótica y audiovisual" />
+    <meta property="og:description" content="Nodos Tecnología es una empresa especializada en soluciones tecnológicas que se dedica a la distribución de equipos de cómputo, cámaras y componentes para computadoras, además de brindar soporte técnico empresarial. Su enfoque principal es brindar atención personalizada al cliente y cuenta con un equipo de expertos en tecnología altamente capacitados, lo que les permite adaptarse a las necesidades específicas de cada cliente. Nodos Tecnología es un socio tecnológico confiable que impulsa el éxito empresarial en un mundo digital en constante evolución." />
+    <meta name="keywords" content="Cámaras de seguridad, Componentes para PC, Audiovisual, Domótica, Equipo de cómputo, Soporte técnico empresarial, Noticias de tecnología">
 
-    <!-- Metadatos para redes sociales TWITER -->
-    <meta property="twitter:site_name" content="Los Tecnologicos" />
-    <meta property="twitter:title" content="Venta de productos" />
-    <meta property="twitter:description"
-        content="Transformando la tecnología en soluciones eficientes. Bienvenidos a Los Tecnologicos, su distribuidor confiable de equipo de cómputo y cámaras" />
-    <meta property="twitter:image" content="./images/componentes/banner.jpeg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nodostecnologia.com" />
 
-    <!-- Otros metadatos -->
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta property="og:image" content="https://nodostecnologia.com/images/LOGOS/logoUrl500x500.jpg" />
+    <meta property="og:site_name" content="Nodos Tecnología® - Sitio oficial Nodos Tecnología®" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@nodostecnologia" />
+    <meta name="twitter:creator" content="@nodostecnologia" />
+    <meta name="twitter:title" content="Nodos Tecnología | Expertos en cámaras de seguridad, domótica y audiovisual" />
+    <meta name="twitter:description" content="Nodos Tecnología es una empresa especializada en soluciones tecnológicas que se dedica a la distribución de equipos de cómputo, cámaras y componentes para computadoras, además de brindar soporte técnico empresarial. Su enfoque principal es brindar atención personalizada al cliente y cuenta con un equipo de expertos en tecnología altamente capacitados, lo que les permite adaptarse a las necesidades específicas de cada cliente. Nodos Tecnología es un socio tecnológico confiable que impulsa el éxito empresarial en un mundo digital en constante evolución." />
+    <meta name="twitter:image" content="https://nodostecnologia.com/images/LOGOS/logoUrl500x500.jpg" />
+
+    <link rel="alternate" hreflang="es" href="https://nodostecnologia.com">
+
+    <meta http-equiv="Cache-Control" content="max-age=2296000, must-revalidate">
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Nodos Tecnología",
+        "url": "https://nodostecnologia.com",
+        "logo": "https://nodostecnologia.com/images/LOGOS/logoUrl.png",
+        "industry": "Technology",
+        "sameAs": [
+        "https://www.facebook.com/nodostecnologia",
+        "https://twitter.com/nodostecnologia",
+        "https://www.linkedin.com/company/nodostecnologia/"
+        ]
+    }
+    </script>
+
+    <link rel="icon" type="image/vnd.microsoft.icon" href="https://nodostecnologia.com/images/LOGOS/logoUrl.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://nodostecnologia.com/images/LOGOS/logoUrl.ico"/>
+	<link rel="icon" sizes="192x192" href="https://nodostecnologia.com/images/LOGOS/logoUrl192x192.png"/>
+	<link rel="icon" sizes="128x128" href="https://nodostecnologia.com/images/LOGOS/logoUrl128x128.png"/>
+	<link rel="apple-touch-icon" href="https://nodostecnologia.com/images/LOGOS/logoUrl.ico"/>
+    <link rel="icon" sizes="32x32" href="https://nodostecnologia.com/images/LOGOS/logoUrl32x32.png"/>
+    <link rel="icon" sizes="16x16" href="https://nodostecnologia.com/images/LOGOS/logoUrl16x16.png"/>
+
+    <link rel="manifest" href="https://nodostecnologia.com/images/LOGOS/manifest.json"/>
 
     <!-- ESTILOS EN CSS -->
     <link rel="stylesheet" href="css/index/formulario.css" />
@@ -68,9 +86,9 @@
         <source src="./images/index/Inicio.m4v" type="video/mp4">
     </video>
     <section class="video-overlay">
-        <p class="titulo-de-video">
+        <spam class="titulo-de-video">
             NODOS TECNOLOGÍA
-        </p>
+    </spam>
         <i class="fa-solid fa-square-caret-down"></i>
     </section>
 
@@ -193,12 +211,7 @@
                         <div class="testimonial_box-top box-cards">
                             <i class="fa-solid iconos-razones fa-screwdriver-wrench"></i>
                             <h4 class="title-general-text-tres-cards ">Mantenimiento Web</h4>
-                            <p class="p-general-text-tres-cards ">Nos especializamos en brindar mantenimiento integral
-                                para
-                                su sitio web. Esto incluye actualizaciones regulares de contenido y productos, para
-                                asegurar
-                                que su presencia en línea siempre esté fresca y actualizada. Además, nos encargamos de
-                                mantener su sitio web seguro y protegido en todo momento.</p>
+                            <p class="p-general-text-tres-cards ">Ofrecemos mantenimiento completo para su sitio web, incluyendo actualizaciones regulares de contenido y productos para mantener su presencia en línea actualizada. Además, aseguramos la seguridad de su sitio en todo momento.</p>
                         </div>
                     </div>
 
@@ -287,7 +300,6 @@
             <div class="otros-dispositivos-general-div-con-imagen">
                 <h4 class="title-general-text-oscuro">Componentes de PC</h4>
                 <p class="p-general-text-oscuro">En Zitrix, nos enorgullece ofrecerle los mejores componentes de PC del mercado, para que pueda construir la computadora de sus sueños. Con nuestra amplia selección de productos de alta calidad, estamos dedicados a brindarle una experiencia de compra sin igual.</p>
-                    <a style="background-color:#E4E4E4;" class="link-a-general-para-sub-paginas" href="">Ver mas</a>
             </div>
             <img class="imagen-componente" src="./images/componentes/computacion/pc_0.png"  alt="">
         </section>

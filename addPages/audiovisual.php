@@ -1,71 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="robots" content="index,follow">
 
-  <!-- Metadatos SEO -->
-  <title>Los Tecnologicos</title>
-  <meta name="description" content="Descripción de la página">
-  <meta name="keywords" content="palabras clave, separadas, por, comas">
-  <meta name="robots" content="index,follow">
-  <meta name="googlebot" content="index,follow">
+    <title>Video y Fotografia - Nodos Tecnología</title>
+    <meta name="description" content="En Nodos Tecnología, ofrecemos una amplia gama de soluciones tecnológicas para proyectos de video y fotografía. Ya sea que necesites equipos de alta calidad para grabar y tomar fotos, o software especializado para la edición y postproducción, nuestro equipo de expertos puede ayudarte a encontrar la solución perfecta para tus necesidades">
+    <link rel="canonical" href="https://nodostecnologia.com/addPages/audiovisual.php" />
+    <link rel="home" href="https://nodostecnologia.com" />
 
-  <!-- Cache -->
-  <meta http-equiv='cache-control' content='no-cache'>
-  <meta http-equiv='expires' content='0'>
-  <meta http-equiv='pragma' content='no-cache'>
-  <meta http-equiv="Expires" content="0">
-  <meta http-equiv="Last-Modified" content="0">
-  <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
-  <meta http-equiv="Pragma" content="no-cache">
+    <meta property="og:title" content="Video y Fotografia - Nodos Tecnología" />
+    <meta property="og:description" content="En Nodos Tecnología, ofrecemos una amplia gama de soluciones tecnológicas para proyectos de video y fotografía. Ya sea que necesites equipos de alta calidad para grabar y tomar fotos, o software especializado para la edición y postproducción, nuestro equipo de expertos puede ayudarte a encontrar la solución perfecta para tus necesidades" />
+    <meta name="keywords" content="Video, Fotografía, Cámaras, Equipos de grabación">
 
-  <!-- Metadatos para redes sociales -->
-  <meta property="og:title" content="Título de la página">
-  <meta property="og:description" content="Descripción de la página">
-  <meta property="og:image" content="URL de la imagen destacada">
-  <meta property="og:url" content="URL de la página">
-  <meta property="og:type" content="website">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nodostecnologia.com/addPages/audiovisual.php" />
 
-  <!-- Metadatos para redes sociales TWITER -->
-  <meta property="twitter:site_name" content="" />
-  <meta property="twitter:title" content="" />
-  <meta property="twitter:description" content="" />
-  <meta property="twitter:image" content="" />
+    <meta property="og:image" content="https://nodostecnologia.com/images/LOGOS/logoUrl500x500.jpg" />
+    <meta property="og:site_name" content="Nodos Tecnología® - Sitio oficial Nodos Tecnología®" />
 
-  <!-- Otros metadatos -->
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@nodostecnologia" />
+    <meta name="twitter:creator" content="@nodostecnologia" />
+    <meta name="twitter:title" content="Video y Fotografia - Nodos Tecnología" />
+    <meta name="twitter:description" content="En Nodos Tecnología, ofrecemos una amplia gama de soluciones tecnológicas para proyectos de video y fotografía. Ya sea que necesites equipos de alta calidad para grabar y tomar fotos, o software especializado para la edición y postproducción, nuestro equipo de expertos puede ayudarte a encontrar la solución perfecta para tus necesidades" />
+    <meta name="twitter:image" content="https://nodostecnologia.com/images/LOGOS/logoUrl500x500.jpg" />
 
-  <!-- ESTILOS EN CSS -->
-  <link rel="stylesheet" href="../css/index/formulario.css" />
-  <link rel="stylesheet" href="../css/main.css">
-  <link rel="stylesheet" media="(min-width:320px)" href="../css/audivisual/movil.css" />
-  <link rel="stylesheet" media="(min-width:768px)" href="../css/audivisual/tablet.css" />
-  <link rel="stylesheet" media="(min-width:1024px)" href="../css/audivisual/desktop.css" />
+    <link rel="alternate" hreflang="es" href="https://nodostecnologia.com/addPages/audiovisual.php">
 
-  <!-- CONEXION CON BOOTSTRAP v5.3 -->
-  <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <meta http-equiv="Cache-Control" content="max-age=2296000, must-revalidate">
 
-  <!-- SLIDER GENERAL -->
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css'>
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Nodos Tecnología",
+        "url": "https://nodostecnologia.com/addPages/audiovisual.php",
+        "logo": "https://nodostecnologia.com/images/LOGOS/logoUrl.png",
+        "industry": "Technology",
+        "sameAs": [
+        "https://www.facebook.com/nodostecnologia",
+        "https://twitter.com/nodostecnologia",
+        "https://www.linkedin.com/company/nodostecnologia/"
+        ]
+    }
+    </script>
 
-  <!--AOS ANIMACION----->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/vnd.microsoft.icon" href="https://nodostecnologia.com/images/LOGOS/logoUrl.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://nodostecnologia.com/images/LOGOS/logoUrl.ico"/>
+	  <link rel="icon" sizes="192x192" href="https://nodostecnologia.com/images/LOGOS/logoUrl192x192.png"/>
+	  <link rel="icon" sizes="128x128" href="https://nodostecnologia.com/images/LOGOS/logoUrl128x128.png"/>
+	  <link rel="apple-touch-icon" href="https://nodostecnologia.com/images/LOGOS/logoUrl.ico"/>
+    <link rel="icon" sizes="32x32" href="https://nodostecnologia.com/images/LOGOS/logoUrl32x32.png"/>
+    <link rel="icon" sizes="16x16" href="https://nodostecnologia.com/images/LOGOS/logoUrl16x16.png"/>
 
+    <link rel="manifest" href="https://nodostecnologia.com/images/LOGOS/manifest.json"/>
+
+    <!-- ESTILOS EN CSS -->
+    <link rel="stylesheet" href="../css/index/formulario.css" />
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" media="(min-width:320px)" href="../css/audivisual/movil.css" />
+    <link rel="stylesheet" media="(min-width:768px)" href="../css/audivisual/tablet.css" />
+    <link rel="stylesheet" media="(min-width:1024px)" href="../css/audivisual/desktop.css" />
+
+    <!-- CONEXION CON BOOTSTRAP v5.3 -->
+    <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+
+    <!-- SLIDER GENERAL -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css'>
+
+    <!--AOS ANIMACION----->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-
 <body>
+  <p style="visibility: hidden; margin:0; padding: 0;  font-size: 0.1px;">En Nodos Tecnología, ofrecemos una amplia gama de soluciones tecnológicas para proyectos de video y fotografía. Ya sea que necesites equipos de alta calidad para grabar y tomar fotos, o software especializado para la edición y postproducción, nuestro equipo de expertos puede ayudarte a encontrar la solución perfecta para tus necesidades</p>
 
   <?php require('../componentesPHP/headerDos.php')?>
 
-
   <!--Banner -->
   <section class="section-contenedor-banner-principal">
-    <h1 data-aos="fade-up" data-aos-duration="1000" class="title-general-text">VIDEO Y FOTOGRAFIA</h1>
+    <h1 data-aos="fade-up" data-aos-duration="1000" class="title-general-text">Video y Fotografia</h1>
     <a data-aos="fade-up" data-aos-duration="1000" class="scroll-link link-banner-principal" href="#contenido">VER MI TRABAJO</a>
   </section>
 
