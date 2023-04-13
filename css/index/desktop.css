@@ -25,6 +25,11 @@
     object-fit: cover;
 }
 
+#background-video {
+    filter: blur(4px);
+}
+
+
 .video-overlay {
     position: relative;
     color: #fff;
@@ -34,8 +39,8 @@
 
     z-index: 223;
 
-    background: -webkit-linear-gradient(to top, #00000054, #00000054);
-    background: linear-gradient(to top, #00000054, #00000054);
+    background: -webkit-linear-gradient(to top, #0000009d, #0000009d);
+    background: linear-gradient(to top, #0000009d, #0000009d);
 
     background-position: center;
     background-repeat: no-repeat;
@@ -96,11 +101,6 @@
 
 /*===================Banner principal===================*/
 .section-contenedor-banner-principal {
-    background-image: url(../../images/index/banner-principal.jpeg);
-    background: -webkit-linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000),
-        url(../../images/index/banner-principal.jpeg);
-    background: linear-gradient(to top, #000000dc, #00000060, #00000010, #00000000),
-        url(../../images/index/banner-principal.jpeg);
 
     background-position: center;
     background-repeat: no-repeat;

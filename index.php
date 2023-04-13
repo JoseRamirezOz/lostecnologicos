@@ -81,9 +81,10 @@
     <!-----------------Header componente!!!----------------------->
     <?php require('./componentesPHP/header.php')?>
 
+    <?php require('./componentesPHP/pantallaDeCarga.php')?>
     <!-----------------VIDEO----------------------->
-    <video id="background-video" autoplay loop muted>
-        <source src="./images/index/Inicio.m4v" type="video/mp4">
+    <video loading="lazy" id="background-video" autoplay loop muted>
+        <source loading="lazy" src="./images/index/Inicio.mp4" type="video/mp4">
     </video>
     <section class="video-overlay">
         <spam class="titulo-de-video">
@@ -111,7 +112,7 @@
                 <p class="p-general-text-oscuro">Ofrecemos cámaras de alta calidad y servicio de instalación profesional
                     para un
                     sistema de seguridad óptimo, con soluciones personalizadas para hogar o negocio.</p>
-                    <a class="link-a-general-para-sub-paginas" href="">Ver mas</a>
+                    <a class="link-a-general-para-sub-paginas" href="https://nodostecnologia.com/addPages/camaras.php">Ver mas</a>
             </div>
             
             <?php require('./componentesPHP/camarasSlider.php')?>
@@ -122,7 +123,7 @@
         <div id="reparacion"></div>
         <!-----------------Seccion de reparacion----------------------->
         <section class="section-contenedor-reparacion">
-        <img class="imagen-reparacion" src="./images/index/reparacion.png"  alt="">
+        <img loading="lazy" class="imagen-reparacion" src="./images/index/reparacion.png"  alt="">
             <div class="otros-dispositivos-general-div-con-imagen">
                 <h4 class="title-general-text-oscuro">Reparaciones de equipos de computo </h4>
                 <p class="p-general-text-oscuro">"Soluciones técnicas confiables para hogar y empresas. Mantenimiento
@@ -155,7 +156,7 @@
                             atractivo, funcional y fácil de usar.</p>
                     </div>
 
-                    <img class="imagen-Desarrollo-web" src="./images/index/pc.png" alt="">
+                    <img loading="lazy" class="imagen-Desarrollo-web" src="./images/index/pc.png" alt="">
                 </div>
 
                 <div class="linea-div"></div>
@@ -259,37 +260,37 @@
             <div class="testimonial-slider-imgs">
                 <div class="testimonial-slide">
                     <div class="testimonial_box-top">
-                        <img src="/images/index/marcas-slider/acer.png" alt="" class="content-image-logo-marcas">
+                        <img loading="lazy" src="/images/index/marcas-slider/acer.png" alt="" class="content-image-logo-marcas">
                     </div>
                 </div>
 
                 <div class="testimonial-slide">
                     <div class="testimonial_box-top">
-                        <img src="/images/index/marcas-slider/asus.png" alt="" class="content-image-logo-marcas">
+                        <img loading="lazy" src="/images/index/marcas-slider/asus.png" alt="" class="content-image-logo-marcas">
                     </div>
                 </div>
 
                 <div class="testimonial-slide">
                     <div class="testimonial_box-top">
-                        <img src="/images/index/marcas-slider/hp.png" alt="" class="content-image-logo-marcas">
+                        <img loading="lazy" src="/images/index/marcas-slider/hp.png" alt="" class="content-image-logo-marcas">
                     </div>
                 </div>
 
                 <div class="testimonial-slide">
                     <div class="testimonial_box-top">
-                        <img src="/images/index/marcas-slider/lenovo.png" alt="" class="content-image-logo-marcas">
+                        <img loading="lazy" src="/images/index/marcas-slider/lenovo.png" alt="" class="content-image-logo-marcas">
                     </div>
                 </div>
 
                 <div class="testimonial-slide">
                     <div class="testimonial_box-top">
-                        <img src="/images/index/marcas-slider/MS.png" alt="" class="content-image-logo-marcas">
+                        <img loading="lazy" src="/images/index/marcas-slider/MS.png" alt="" class="content-image-logo-marcas">
                     </div>
                 </div>
 
                 <div class="testimonial-slide">
                     <div class="testimonial_box-top">
-                        <img src="/images/index/marcas-slider/msi.png" alt="" class="content-image-logo-marcas">
+                        <img loading="lazy" src="/images/index/marcas-slider/msi.png" alt="" class="content-image-logo-marcas">
                     </div>
                 </div>
             </div>
@@ -301,7 +302,7 @@
                 <h4 class="title-general-text-oscuro">Componentes de PC</h4>
                 <p class="p-general-text-oscuro">En Zitrix, nos enorgullece ofrecerle los mejores componentes de PC del mercado, para que pueda construir la computadora de sus sueños. Con nuestra amplia selección de productos de alta calidad, estamos dedicados a brindarle una experiencia de compra sin igual.</p>
             </div>
-            <img class="imagen-componente" src="./images/componentes/computacion/pc_0.png"  alt="">
+            <img loading="lazy" class="imagen-componente" src="./images/componentes/computacion/pc_0.png"  alt="">
         </section>
 
 

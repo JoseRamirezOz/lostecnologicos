@@ -1,14 +1,20 @@
 /*===================Fuentes=====================*/
-
+/* Cambiar el ancho de la scrollbar */
 body::-webkit-scrollbar {
     width: 9px;
-}
-
-body::-webkit-scrollbar-thumb {
+  }
+  
+  /* Cambiar el color de la scrollbar */
+  body::-webkit-scrollbar-thumb {
     background: #232323;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
-}
-
+  }
+  
+  /* Cambiar el color del fondo detrás de la scrollbar */
+  body::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  
 
 @font-face {
     font-family: "Titulo-Uno";
@@ -159,7 +165,7 @@ a:hover {
 
 header {
     background-color: var(--primer-color);
-    z-index: 9999999;
+    z-index: 999;
 }
 
 #navBar.transparent-bg {
@@ -171,7 +177,7 @@ header {
  
     padding: 15px;
  
-    z-index: 9999999;
+    z-index: 999;
     position: fixed;
 
     width: 100%;
@@ -202,7 +208,7 @@ header {
     font-size: 2rem;
     opacity: 1;
     transition: var(--transition);
-    z-index: 9999999;
+    z-index: 999;
 }
 
 #btn-close:hover {
@@ -213,7 +219,7 @@ header {
 /*-----MENU DESPLEGABLE-----*/
 #offcanvasDarkNavbar {
     background-color: var(--primer-color);
-    z-index: 9999999;
+    z-index: 99999;
 }
 
 

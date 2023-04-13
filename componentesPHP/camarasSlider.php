@@ -5,35 +5,35 @@
                             <div class="carousel-item active">
                                 <div class="col-md-3">
                                     <div class="card-img">
-                                        <img src="../images/camaras/slider/camara-1.png" class="img-fluid">
+                                        <img loading="lazy"  src="../images/camaras/slider/camara-1.png" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="col-md-3">
                                     <div class="card-img">
-                                        <img src="../images/camaras/slider/camara-2.png" class="img-fluid">
+                                        <img loading="lazy"  src="../images/camaras/slider/camara-2.png" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="col-md-3">
                                     <div class="card-img">
-                                        <img src="../images/camaras/slider/camara-3.png" class="img-fluid">
+                                        <img loading="lazy"  src="../images/camaras/slider/camara-3.png" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="col-md-3">
                                     <div class="card-img">
-                                        <img src="../images/camaras/slider/camara-4.png" class="img-fluid">
+                                        <img loading="lazy"  src="../images/camaras/slider/camara-4.png" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="col-md-3">
                                     <div class="card-img">
-                                        <img src="../images/camaras/slider/camara-5.png" class="img-fluid">
+                                        <img loading="lazy"  src="../images/camaras/slider/camara-5.png" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@
                                 <div class="col-md-3">
 
                                     <div class="card-img">
-                                        <img src="../images/camaras/slider/camara-6.png" class="img-fluid">
+                                        <img loading="lazy"  src="../images/camaras/slider/camara-6.png" class="img-fluid">
                                     </div>
 
                                 </div>
