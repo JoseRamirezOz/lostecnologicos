@@ -23,7 +23,7 @@
                                 <a id="texto-nav" class="nav-link active scroll-link" aria-current="page" href="/">Inicio</a>
                             </li>                                                  
                             <li class="nav-item" >
-                                <a id="texto-nav" class="nav-link" href="/addPages/camaras.php">Video Vigilancía</a>
+                                <a id="texto-nav" class="nav-link" href="/addPages/camaras.php">Videovigilancía</a>
                             </li>   
                             <li class="nav-item">
                                 <a id="texto-nav" class="nav-link" href="/addPages/infra-red.php">Infraestructura de red</a>

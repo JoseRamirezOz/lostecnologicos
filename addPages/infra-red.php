@@ -120,32 +120,32 @@
                 <section class="expand-content">
                     <div class="producto-div">
                         <img class="img-producto" src="../images/redes/c1.png" alt="">
-                        <p class="nombre-producto">RJ45</p>
+                        <!-- <p class="nombre-producto">RJ45</p> -->
                     </div>
 
                     <div class="producto-div">
                         <img class="img-producto" src="../images/redes/c2.png" alt="">
-                        <p class="nombre-producto">RJ45</p>
+                        <!-- <p class="nombre-producto">RJ45</p> -->
                     </div>
 
                     <div class="producto-div">
                         <img class="img-producto" src="../images/redes/c3.png" alt="">
-                        <p class="nombre-producto">RJ45</p>
+                        <!-- <p class="nombre-producto">RJ45</p> -->
                     </div>
 
                     <div class="producto-div">
                         <img class="img-producto" src="../images/redes/c4.png" alt="">
-                        <p class="nombre-producto">RJ45</p>
+                        <!-- <p class="nombre-producto">RJ45</p> -->
                     </div>
 
                     <div class="producto-div">
                         <img class="img-producto" src="../images/redes/c1.png" alt="">
-                        <p class="nombre-producto">RJ45</p>
+                        <!-- <p class="nombre-producto">RJ45</p> -->
                     </div>
 
                     <div class="producto-div">
                         <img class="img-producto" src="../images/redes/c2.png" alt="">
-                        <p class="nombre-producto">RJ45</p>
+                        <!-- <p class="nombre-producto">RJ45</p> -->
                     </div>
                 </section>
             </div>

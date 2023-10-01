@@ -36,7 +36,7 @@
                             </li>       -->
                             <div class="linea-div" style="margin: 5px 0px 5px 0px; width: 100%;"></div>
                             <li class="nav-item" >
-                                <a id="texto-nav" class="nav-link" href="./addPages/camaras.php">• Video Vigilancía</a>
+                                <a id="texto-nav" class="nav-link" href="./addPages/camaras.php">• Videovigilancía</a>
                             </li>   
                             <li class="nav-item">
                                 <a id="texto-nav" class="nav-link" href="./addPages/infra-red.php">• Infraestructura de red</a>
@@ -45,7 +45,7 @@
                                 <a id="texto-nav" class="nav-link" href="./addPages/audiovisual.php">• Video / Fotografia</a>
                             </li> 
                             <li class="nav-item">
-                                <a id="texto-nav" class="nav-link" href="./addPages/domotica.php">• Domotica</a>
+                                <a id="texto-nav" class="nav-link" href="./addPages/domotica.php">• Domótica</a>
                             </li> 
                         </ul>               
                     </div>

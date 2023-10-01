@@ -115,7 +115,7 @@
   <!-- SERVICIOS DE INSTALACION  -->
   <section class="servInstalacionContainer">
     <div class="servInstalacionSubContainer">
-      <h2 class="titleCamarasVig">Servicio de instalacion</h2>
+      <h2 class="titleCamarasVig">Servicios de instalacion</h2>
       <p class="servInstalacionParrafo">El servicio de instalación de cámaras de seguridad con Nodos Tecnología ofrece una
         solución completa y efectiva para proteger tu hogar o negocio. Con nuestra tecnología de vanguardia y nuestro
         equipo de expertos en instalación, puedes estar seguro de tener un sistema de seguridad confiable y fácil de
@@ -149,22 +149,22 @@
     <div class="masGustadosSubContainer">
       <article class="gustadosFavoritos gustadosFavoritosOne">
         <img class="gustadosImg" src="/images/camaras/slider/camara-1.png" alt="">
-        <p class="gustadosSubtitle">TP LINK C200</p>
+        <!-- <p class="gustadosSubtitle">TP LINK C200</p> -->
       </article>
 
       <article class="gustadosFavoritos">
         <img class="gustadosImg" src="/images/camaras/slider/camara-4.png" alt="">
-        <p class="gustadosSubtitle">TP LINK C200</p>
+        <!-- <p class="gustadosSubtitle">TP LINK C200</p> -->
       </article>
 
       <article class="gustadosFavoritos">
         <img class="gustadosImg" src="/images/camaras/slider/camara-2.png" alt="">
-        <p class="gustadosSubtitle">TP LINK C200</p>
+        <!-- <p class="gustadosSubtitle">TP LINK C200</p> -->
       </article>
 
       <article class="gustadosFavoritos">
         <img class="gustadosImg" src="/images/camaras/slider/camara-5.png" alt="">
-        <p class="gustadosSubtitle">TP LINK C200</p>
+        <!-- <p class="gustadosSubtitle">TP LINK C200</p> -->
       </article>
     </div>
   </section>
@@ -176,22 +176,22 @@
     <div class="ofertasSubContainer">
       <article class="ofertasFavoritos">
         <img class="ofertasImg" src="/images/camaras/slider/camara-3.png" alt="">
-        <p class="ofertasSubtitle">TP LINK C200</p>
+        <!-- <p class="ofertasSubtitle">TP LINK C200</p> -->
       </article>
 
       <article class="ofertasFavoritos">
         <img class="ofertasImg" src="/images/camaras/slider/camara-6.png" alt="">
-        <p class="ofertasSubtitle">TP LINK C200</p>
+        <!-- <p class="ofertasSubtitle">TP LINK C200</p> -->
       </article>
 
       <article class="ofertasFavoritos">
         <img class="ofertasImg" src="/images/camaras/slider/camara-4.png" alt="">
-        <p class="ofertasSubtitle">TP LINK C200</p>
+        <!-- <p class="ofertasSubtitle">TP LINK C200</p> -->
       </article>
 
       <article class="ofertasFavoritos">
         <img class="ofertasImg" src="/images/camaras/slider/camara-8.png" alt="">
-        <p class="ofertasSubtitle">TP LINK C200</p>
+        <!-- <p class="ofertasSubtitle">TP LINK C200</p> -->
       </article>
     </div>
 
